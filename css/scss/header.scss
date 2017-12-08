@@ -1,0 +1,103 @@
+@import "mixins";
+
+//-- Header
+//------------------------------------------------------
+
+header {
+  position: relative;
+
+  .phone {
+    text-align: right;
+  }
+}
+
+//-----------------------Logo
+
+.logo {
+  float: left;
+  max-width: 300px;
+  position: relative;
+  z-index: 200;
+
+  > img {
+    max-width: 100%;
+  }
+
+  //Responsive Styles
+
+  @include respond-to(desktoplg) {
+    margin-bottom: -84px;
+  }
+
+  @include respond-to(mobile) {
+    display: block;
+    float: none;
+    max-width: inherit;
+    text-align: center;
+  }
+}
+
+//-----------------------Top navigation row
+
+.top-navigation-row {
+  @extend %clearfix;
+
+  padding: $top-navigation-row-pad-desktop;
+  position: relative;
+
+  &-content {
+    @include flex(center);
+    justify-content: space-between;
+    position: relative;
+  }
+
+  @include respond-to(mobile) {
+    padding: $top-navigation-row-pad-mobile;
+
+    &-content {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.favor {
+  @include position-absolute(left, 100%, top, 0);
+
+  &-text {
+    background-color: #515151;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 8px;
+    white-space: nowrap;
+
+    @include position-absolute(left, calc(100% - 18px), bottom, 100%);
+  }
+
+  @include respond-to(desktopXlgMin) {
+    left: inherit;
+    right: 175px;
+    top: -38px;
+
+    &-text {
+      left: calc(100% + 5px);
+      bottom: inherit;
+      top: 50%;
+      @include transform-center(0, -50%);
+    }
+  }
+
+  @include respond-to(mobile) {
+    display: none;
+  }
+}
+
+//-----------------------Header mobile content
+
+.header-mobile-content {
+  @include flex(justify);
+
+  .phone {
+    color: $white;
+  }
+}

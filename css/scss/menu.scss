@@ -1,0 +1,92 @@
+@import "mixins";
+@import "functions";
+
+//-- Navbar Menu
+//------------------------------------------------------
+
+.navbar {
+  background-color: $navbar-bg;
+  padding: {
+    left: 0;
+    right: 0;
+  }
+
+  .wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  //Responsive styles
+
+  @include respond-to(desktopXlgMin) {
+    .btn-call {
+      padding: 7px 15px;
+    }
+  }
+
+  @include respond-to(desktop) {
+    min-height: $navbar-desktop-height;
+
+    .btn-call {
+      @include position-absolute(right, $mobile-common-pad-horizontal, top, -40px);
+    }
+  }
+
+  @include respond-to(mobile) {
+    min-height: $navbar-mobile-height;
+
+    .btn-call {
+      display: none;
+    }
+  }
+}
+
+//-----------------------Nevbar nav menu
+
+.navbar-collapse {
+  @include respond-to(desktoplg) {  // > 1200px
+    margin-left: 330px;
+  }
+
+  @include respond-to(mobile) {
+    margin-top: 15px;
+  }
+}
+
+.navbar-expand-md .navbar-nav {
+
+  .nav-link {
+    color: $nav-link-color;
+    font-size: $nav-link-size;
+    padding: $nav-link-pad;
+  }
+
+  //Responsive styles
+
+  @include respond-to(desktoplgMin) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @include respond-to(desktop) {
+    width: 100%;
+
+    .nav-item {
+      + .nav-item {
+        margin-left: 6px;
+      }
+    }
+  }
+
+  @include respond-to(mobile) {
+    .nav-item {
+      + .nav-item {
+        margin-top: 10px;
+      }
+    }
+
+    .nav-link {
+      font-size: $size-xlarge;
+    }
+  }
+}

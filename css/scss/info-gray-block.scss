@@ -1,0 +1,61 @@
+@import "mixins";
+@import "functions";
+
+//-- Info gray block styles
+//------------------------------------------------------
+
+.gray-info-block {
+  background-color: $bg-common;
+  @include flex(center);
+  flex-wrap: wrap;
+  margin-bottom: $space-between-elements;
+
+  > *:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &-text {
+    @extend %last-child;
+
+    > * {
+      margin: 0;
+      line-height: 1.1;
+
+      &:not(.gray-info-block-title) {
+        font-style: italic;
+      }
+    }
+  }
+
+  &-title {
+    color: $gray-info-block-title-color;
+    font: {
+      family: $gray-info-block-title-family;
+      size: $gray-info-block-title-size;
+    }
+    text-transform: uppercase;
+  }
+
+  &-transparent {
+    background-color: transparent;
+  }
+
+  //Responsive styles
+
+  @include respond-to(mobileSmallScreenLg) {
+    min-height: $gray-info-block-height;
+    justify-content: center;
+
+    &-transparent {
+      min-height: 160px;
+    }
+  }
+
+  @include respond-to(mobileSmallScreen) {
+    padding: $gray-info-block-pad-mobile;
+
+    &-icon {
+      display: none;
+    }
+  }
+}
