@@ -403,7 +403,11 @@
 
 .mortgage-block .sliding-block {
 	background: #f1f1f1;
-	padding: 20px 70px 39px 38px;
+	padding: 20px 38px 39px 38px;
+}
+
+.sliding-bl_inner {
+	padding-right: 32px;
 }
 
 .bank-inner-table {
@@ -474,6 +478,66 @@ p.font-10 {
 	line-height: 15px;
 }
 
-.two-cols-inner
+.thumbnails_2 {
+	margin: 8px -10px 0 -10px;
+}
+
+.thumb_2 {
+	display: inline-block;
+	vertical-align: top;
+    padding: 10px;
+}
+
+.thumbnails_2 .thumb_2 {
+	/*width: 200px;*/
+	width: 16.66%;
+}
+
+.thumb_2 .inner {
+	display: block;
+	padding-bottom: 28px;
+	border-bottom: 1px solid #777777;
+}
+
+.thumb_2 .img-box {
+	height: 180px;
+	margin: 0 0 7px 0;
+	background: #ffffff;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #777777;
+}
+
+.thumb_2 .img-box img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.thumb_2 h3 {
+	margin-bottom: 1px;
+	color: #000000;
+	font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.thumb_2 p {
+	margin-bottom: 0;
+	color: #777777;
+	font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
 
 /*-- /Mortgage --*/
