@@ -197,8 +197,15 @@
     display: -webkit-flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-top: 2px solid #e6e6e6;
-    padding: 50px 0 27px 0;
+    padding: 5px 0 27px 0;
+}
+
+.two-cols-templ.border {
+	border-top: 2px solid #e6e6e6;
+}
+
+.tab-pane .two-cols-templ {
+	padding: 50px 0 27px 0;
 }
 
 .two-cols-templ .two-col-1 {
