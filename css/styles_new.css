@@ -496,7 +496,6 @@ p.font-10 {
 }
 
 .thumbnails_2 .thumb_2 {
-	/*width: 200px;*/
 	width: 16.66%;
 }
 
@@ -548,3 +547,23 @@ p.font-10 {
 
 
 /*-- /Mortgage --*/
+
+/*-- News GK --*/
+
+.tab-news {
+
+}
+
+.filter-news.tab-news  {
+	margin-bottom: 43px;
+}
+
+.inner-row {
+	padding: 0 10px;
+}
+
+.news_wrapp {
+	margin: 37px 0 22px 0;
+}
+
+/*-- /News GK --*/
