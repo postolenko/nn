@@ -11,6 +11,9 @@
     <link href="css/owl.theme.css" rel="stylesheet" />
     <link href="css/jquery-ui.min.css" rel="stylesheet">
     <link href="css/scss/styles.css" rel="stylesheet" />
+    <!-- Новые стили -->
+    <link href="css/styles_new.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
 </head>
     <body>
         <div class="main">
@@ -146,7 +149,7 @@
                             </div>
                         </div>
                         <div class="tabs">
-                            <ul class="nav nav-tabs list-step" id="myTab" role="tablist">
+                            <ul class="nav nav-tabs list-step" id="myTab" role="tablist">                                 
                                 <li class="item-step item-step-title">
                                     <a class="active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">Микрорайон «Южное Видное»</a>
                                 </li>
@@ -195,6 +198,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
+
                                 <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
                                     <div class="row object-detail">
                                         <div class="col-xl-7 col-lg-6">
@@ -560,8 +564,311 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="mortgage" role="tabpanel" aria-labelledby="mortgage-tab">
-                                    Content for tab3
+                                <div class="tab-pane fade active show" id="mortgage" role="tabpanel" aria-labelledby="mortgage-tab">
+                                    
+                                    <!-- Mortgage -->
+
+                                    <div class="two-cols-templ clearfix">
+                                        
+                                        <div class="two-col-1">
+
+                                            <div class="from-block yellow-bg panel-yellow">
+                                                <div class="panel-header"><h3 class="panel-title">Бесплатная консультация ипотечного брокера</h3></div>
+
+                                                <div class="panel-body">
+
+                                                    <div class="form-group">
+                                                        <textarea class="form-control form-control-white" placeholder="Ваш вопрос"></textarea>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <div class="row">
+                                                            <div class="col-4">
+                                                                <input type="name" class="form-control form-control-white" id="" aria-describedby="nameHelp" placeholder="Ваше имя">
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <input type="tel" class="form-control form-control-white" id="" aria-describedby="telHelp" placeholder="Телефон для связи">
+                                                            </div>
+                                                            <div class="col-4">
+                                                                <button type="submit" class="btn-submit">Отправить заявку</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="mortgages-header">
+                                                <div class="table-row">
+                                                    <div class="cell">
+                                                        <h5>Банк</h5>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <h5>Процентная ставка</h5>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <h5>Первоначальный взнос</h5>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <h5>Срок кредита</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mortgage-block sliding-block_wrapp active">
+                                                <div class="bank-header">
+                                                    <div class="table-row">
+                                                        <div class="cell cell-1">
+                                                            <div class="military-shape">
+                                                                <i class="yellow-white-star"></i>
+                                                                <h3>Военная ипотека</h3>
+                                                            </div>
+
+                                                            <img src="images/sber.png" alt="" />
+
+                                                        </div>
+                                                        <div class="cell cell-2">
+                                                            <p>от <span>5%</span></p>
+                                                        </div>
+                                                        <div class="cell cell-3">
+                                                            <p>от <span>15%</span></p>
+                                                        </div>
+                                                        <div class="cell cell-4">
+                                                            <p>до <span>30 лет</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="sliding-btn"></button>
+                                                </div>
+                                                <div class="sliding-block">
+                                                    <div class="bank-inner-table">
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«Субсидированная ставка»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>8%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 15%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 7 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«Акция»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>5%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 15%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 30 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«По двум документам»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>+0,5% к стандартной</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 50%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 30 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p>Тут будет текск произвольной длины, описывающий подробнее условия ипотеки, но его может и не быть. С учетом сложившейся международной обстановки, граница обучения кадров не дает нам иного выбора, кроме определения приоретизации разума над эмоциями. Лишь сделанные на базе интернет-аналитики выводы указаны как претенденты на роль ключевых факторов. Следует отметить, что новая модель организационной деятельности требует анализа благоприятных перспектив. Укрепление и развитие внутренней структуры однозначно фиксирует необходимость глубокомысленных рассуждений.</p>
+                                                    <div class="two-cols-inner offset-ziro">
+                                                        <div class="col">
+                                                            <p class="font-10">Лицензия банка № 1234567890 1234567890</p>
+                                                            <p class="font-10">От 1 января 1991 года</p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="#" class="btn btn-secondary btn-up">Консультация специалиста банка</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mortgage-block sliding-block_wrapp">
+                                                <div class="bank-header">
+                                                    <div class="table-row">
+                                                        <div class="cell cell-1">
+                                                            <img src="images/rayfaizen.png" alt="" />
+                                                        </div>
+                                                        <div class="cell cell-2">
+                                                            <p>от <span>5%</span></p>
+                                                        </div>
+                                                        <div class="cell cell-3">
+                                                            <p>от <span>15%</span></p>
+                                                        </div>
+                                                        <div class="cell cell-4">
+                                                            <p>до <span>30 лет</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="sliding-btn"></button>
+                                                </div>
+                                                <div class="sliding-block">
+                                                    <div class="bank-inner-table">
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«Субсидированная ставка»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>8%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 15%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 7 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«Акция»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>5%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 15%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 30 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>«По двум документам»</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>+0,5% к стандартной</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>от 50%</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cell">
+                                                                <div>
+                                                                    <p>до 30 лет</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p>Тут будет текск произвольной длины, описывающий подробнее условия ипотеки, но его может и не быть. С учетом сложившейся международной обстановки, граница обучения кадров не дает нам иного выбора, кроме определения приоретизации разума над эмоциями. Лишь сделанные на базе интернет-аналитики выводы указаны как претенденты на роль ключевых факторов. Следует отметить, что новая модель организационной деятельности требует анализа благоприятных перспектив. Укрепление и развитие внутренней структуры однозначно фиксирует необходимость глубокомысленных рассуждений.</p>
+                                                    <div class="two-cols-inner offset-ziro">
+                                                        <div class="col">
+                                                            <p class="font-10">Лицензия банка № 1234567890 1234567890</p>
+                                                            <p class="font-10">От 1 января 1991 года</p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <a href="#" class="btn btn-secondary btn-up">Консультация специалиста банка</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="two-col-2">
+
+                                            <div class="panel panel-green mortgage-calc">
+                                                <div class="panel-header"><h3 class="panel-title">Ипотечный калькулятор</h3></div>
+                                                <div class="panel-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label class="label-white">Стоимость квартиры</label>
+                                                            <input type="email" class="form-control form-control-white" id="" aria-describedby="emailHelp" placeholder="Р">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="label-white">Первоначальный взнос</label>
+                                                            <input type="email" class="form-control form-control-white" id="" aria-describedby="emailHelp" placeholder="Р">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <label class="label-white">Срок кредита</label>
+                                                                    <input type="email" class="form-control form-control-white" id="" aria-describedby="emailHelp" placeholder="лет">
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <label class="label-white">Ставка %</label>
+                                                                    <input type="email" class="form-control form-control-white" id="" aria-describedby="emailHelp" placeholder="%">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <button class="btn btn-secondary btn-up btn-block">Рассчитать</button>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="label-white">Сумма кредита</label>
+                                                            <p class="price-white">7 700 000 <span class="ruble">Р</span></p>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="label-white">Ежемесячный платеж</label>
+                                                            <p class="price-white">7 700 000 <span class="ruble">Р</span></p>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- /Mortgage -->
+
                                 </div>
                                 <div class="tab-pane fade" id="diary" role="tabpanel" aria-labelledby="diary-tab">
                                     Content for tab3
@@ -678,5 +985,6 @@
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/scripts_new.js"></script>
     </body>
 </html>

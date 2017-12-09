@@ -3,6 +3,8 @@
 	line-height: 0;
 }
 
+/*-- Share --*/
+
 .slide-descript {
 	width: 116%;
 	position: absolute;
@@ -55,7 +57,6 @@
 
 .thumb_1 .inner {
 	display: block;
-/*	position: relative;*/
 }
 
 .thumb_1 .img-box {
@@ -183,3 +184,296 @@
 .thumb_1 .inner:hover p.p-1 {
 	color: #f29100;
 }
+
+/*-- /Share --*/
+
+/*-- Mortgage --*/
+
+.two-cols-templ {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 2px solid #e6e6e6;
+    padding: 50px 0 27px 0;
+}
+
+.two-cols-templ .two-col-1 {
+	width: calc(100% - 300px);
+	padding-right: 20px;
+}
+
+.two-cols-templ .two-col-2 {
+	width: 300px;
+	padding-left: 20px;
+}
+
+.from-block {
+	padding: 9px 0 20px 0;
+}
+
+.yellow-bg {
+	background: #f29100;
+}
+
+.panel-yellow .panel-header * {
+    color: #fff;
+}
+
+.from-block .panel-header {
+	padding-bottom: 0;
+}
+
+.form-group textarea {
+	height: 84px;
+}
+
+.btn-submit {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	padding: 3px 1%;
+	background: #009440;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	color: #ffffff;
+    font-family: "Fira Sans Compressed", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.btn-submit:active {
+	background: 
+}
+
+.mortgages-header {
+	display: table;
+	width: 100%;
+	padding: 30px 70px 30px 38px;
+}
+
+.mortgages-header .table-row {
+	display: table-row;
+}
+
+.mortgages-header .cell {
+	display: table-cell;
+	vertical-align: top;
+	width: 25%;
+	text-align: center;
+}
+
+.mortgages-header h5 {
+	color: #009440;
+	margin-bottom: 0;
+}
+
+.bank-header {
+	display: table;
+	width: 100%;
+	padding: 0 70px 0 38px;
+	position: relative;
+	background: #ffffff;
+	border-top: 2px solid #f3970d;
+	border-bottom: 2px solid #f3970d;
+}
+
+.bank-header .table-row {
+	display: table-row;
+}
+
+.bank-header .cell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 25%;
+	padding: 36px 2% 31px 2%;
+	text-align: center;
+}
+
+.bank-header .cell-1 img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 98%;
+}
+
+.sliding-btn {
+	display: block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid transparent;
+	background-color: transparent;
+	background-image: url(../images/arrow-green.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.sliding-btn:active,
+.sliding-btn:focus {
+	outline: none;
+}
+
+.sliding-btn.active {	
+	background-image: url(../images/x.png);	
+}
+
+.bank-header .sliding-btn {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin: -17px 0 0 0;
+}
+
+.military-shape {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 4px;
+	background: #009440;
+	position: relative;
+}
+
+.military-shape:after {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: -23px;
+	border-style: solid;
+	border-width: 23px 23px 0 0;
+	border-color: #009440 transparent transparent transparent;
+}
+
+.yellow-white-star {
+	display: block;
+	width: 18px;
+	height: 17px;
+	background-image: url(../images/yellow_white_star.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.military-shape i {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.military-shape h3 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+	color: #ffffff;
+}
+
+.bank-header .military-shape {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bank-header p {
+	margin-bottom: 0;
+	color: #000000;
+    font-family: "Fira Sans Compressed", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.bank-header p span {
+	color: #f29100;
+	font-family: "Fira Sans Compressed", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.mortgage-block .sliding-block {
+	background: #f1f1f1;
+	padding: 20px 70px 39px 38px;
+}
+
+.bank-inner-table {
+	display: table;
+	width: 100%;
+	padding: 20px 0 23px 0;
+}
+
+.bank-inner-table .table-row {
+	display: table-row;
+}
+
+.bank-inner-table .cell {
+	display: table-cell;
+	vertical-align: top;
+	width: 25%;
+	text-align: center;
+	padding: 0 2%;	
+}
+
+.bank-inner-table .cell > div {
+	padding: 13px 0;
+	border-bottom: 2px solid #e4e4e4;
+}
+
+.bank-inner-table .table-row:last-child .cell > div {
+	border-bottom: none;
+}
+
+.bank-inner-table p {
+	margin-bottom: 0;
+	color: #000000;
+	font-family: "Fira Sans Compressed", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.two-cols-inner {
+	padding: 8px 0;
+}
+
+.two-cols-inner .col {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	padding: 10px 0;
+}
+
+.two-cols-inner .col:nth-child(odd) {
+	padding-right: 1%;
+}
+
+.two-cols-inner .col:nth-child(even) {
+	padding-left: 1%;
+}
+
+.mortgage-block .two-cols-inner .col:nth-child(even) {
+	text-align: right;
+}
+
+.two-cols-inner p {
+	margin-bottom: 0;
+}
+
+p.font-10 {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.two-cols-inner
+
+/*-- /Mortgage --*/

@@ -28,35 +28,6 @@ $(document).ready(function () {
 
     // ---------------------------
 
-    $(".carousel-shares-slider").owlCarousel({
-        loop:false,
-        mouseDrag: false,
-        touchDrag: true,
-        dots: false,
-        nav: true,
-        responsiveClass:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-
-            },
-            992:{
-                items:1
-            },
-            1200:{
-                items:1
-            }
-        }
-    });
-
-
-
-
-    // ---------------------------
-
 
 
     $( "#price-slider" ).slider({
