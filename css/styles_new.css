@@ -495,7 +495,7 @@ p.font-10 {
 
 .thumb_2 .inner {
 	display: block;
-	padding-bottom: 28px;
+	min-height: 265px;
 	border-bottom: 1px solid #777777;
 }
 
