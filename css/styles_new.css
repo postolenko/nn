@@ -1068,7 +1068,12 @@ a.h5:hover {
 }
 
 .search-btn {
-	padding: 11px 18px;
+	padding: 5px 18px;
+	color: #ffffff;
+	font-family: "Fira Sans Condensed Semibold", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
 }
 
 .route-map_wrapp {
