@@ -907,3 +907,303 @@ a.h5:hover {
 }
 
 /*-- /Open News --*/
+
+/*-- Как доехать --*/
+
+.route-map_tab {
+	border-top: 2px solid #e6e6e6;
+	padding: 54px 0;
+}
+
+.search-route {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search-route .search-col {
+	padding: 5px 0;
+}
+
+.search-route .search-col-1 {
+	width: 380px;
+	padding-right: 20px;
+}
+
+.search-route .search-col-2 {
+	width: calc(100% - 620px);
+	padding: 5px 20px;
+}
+
+.search-route .search-col-3 {
+	width: 240px;
+	padding-left: 20px;
+}
+
+.choisen-radio {
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	background: #e3e3e3;
+	padding: 2px;
+}
+
+.radio-box {
+	position: relative;
+}
+
+.choisen-radio .radio-box {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.radio-box input[type="radio"] {
+
+}
+
+.radio-box label {
+	cursor: pointer;
+	margin-bottom: 0;
+	white-space: nowrap;
+	color: #777777;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.radio-box label i,
+.radio-box label span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.radio-box label i {
+	margin: 0 5px 0 0;
+
+}
+
+.radio-box input[type="radio"] {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.radio-box input[type="radio"] + label {
+	background: #e3e3e3;
+	padding: 7px 10px;
+}
+
+.radio-box input[type="radio"]:checked + label {
+	background: #ffffff;
+	color: #f29100;
+}
+
+.radio-box input[type="radio"] + label i.disable {
+	display: inline-block;
+}
+
+.radio-box input[type="radio"]:checked + label i.disable {
+	display: none;
+}
+
+.radio-box input[type="radio"] + label i.enable {
+	display: none;
+}
+
+.radio-box input[type="radio"]:checked + label i.enable {
+	display: inline-block;
+}
+
+.icon-car-grey {
+	display: block;
+	width: 19px;
+	height: 13px;
+	background-image: url(../images/icon_car_grey.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.icon-car-orange {
+	display: block;
+	width: 19px;
+	height: 13px;
+	background-image: url(../images/icon_car_orange.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.icon-bus-grey {
+	display: block;
+	width: 18px;
+	height: 19px;
+	background-image: url(../images/icon_bus_grey.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.icon-bus-orange {
+	display: block;
+	width: 18px;
+	height: 19px;
+	background-image: url(../images/icon_bus_orange.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.search-input {
+	border: 2px solid #f29406;
+	height: 40px;
+}
+
+.search-btn {
+	padding: 11px 18px;
+}
+
+.route-map_wrapp {
+	padding: 34px 0;
+}
+
+.route-map {
+	height: 640px;
+}
+
+.route-descript {
+	padding: 19px 0 0 400px;
+}
+
+.route-steps_wrapp {
+    margin: 15px 0;
+}
+
+.route-steps {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.route-steps .step {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 8px 0 0;
+}
+
+.route-steps .step:after {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 4px 0 13px;
+	content: "\276F";
+	color: #c7c7c7;
+	font-family: "Fira Sans Condensed Bold", sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.route-steps .step:last-child:after {
+	display: none;
+}
+
+.route-steps_wrapp .res-time {
+	display: inline-block;
+	vertical-align: top;
+	padding: 4px 0 0 0;
+}
+
+.route-steps_wrapp .res-time p {
+	color: #5d5e5e;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.step i, 
+.step p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.step p {
+	margin: 0 0 0 2px;
+}
+
+.step .count {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 30px;
+	height: 30px;
+	background: #d32f2f;
+	padding: 0 8px;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.red-sq.count {
+	background: #d32f2f;
+}
+
+.green-sq.count {
+	background: #66bb6a;
+}
+
+.icon-human {
+	display: block;
+	width: 15px;
+	height: 26px;
+	background-image: url(../images/human.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.icon-metro {
+	display: block;
+	width: 26px;
+	height: 25px;
+	background-image: url(../images/underground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.step .sq-num {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 30px;
+	height: 30px;
+	border: 2px solid #d2d2d2;
+	padding: 0 11px;
+	text-align: center;
+	color: #5d5e5e;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.route-descript p {
+	margin-bottom: 0;
+	color: #000000;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+
+/*-- /Как доехать --*/

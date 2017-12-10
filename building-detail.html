@@ -149,7 +149,7 @@
                             </div>
                         </div>
                         <div class="tabs">
-                            <ul class="nav nav-tabs list-step" id="myTab" role="tablist">                                 
+                            <ul class="nav nav-tabs list-step" id="myTab" role="tablist">
                                 <li class="item-step item-step-title">
                                     <a class="active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">Микрорайон «Южное Видное»</a>
                                 </li>
@@ -1214,7 +1214,94 @@
                                     <!-- /News GK-->
                                 </div>
                                 <div class="tab-pane fade" id="car" role="tabpanel" aria-labelledby="car-tab">
-                                    Content for tab3
+                                    
+                                    <!-- Как доехать -->
+
+                                    <div class="route-map_tab">
+
+                                        <div class="search-route_wrapp">
+
+                                            <form>
+
+                                                <div class="search-route">
+
+                                                    <div class="search-col search-col-1">
+
+                                                        <div class="choisen-radio">
+                                                            
+                                                            <div class="radio-box">
+                                                                <input type="radio" name="marshrut" id="radio_m_1" checked />
+                                                                <label for="radio_m_1">
+                                                                    <i class="icon-car-grey disable"></i>
+                                                                    <i class="icon-car-orange enable"></i>
+                                                                    На автомобиле
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="radio-box">
+                                                                <input type="radio" name="marshrut" id="radio_m_2" />
+                                                                <label for="radio_m_2">
+                                                                    <i class="icon-bus-grey disable"></i>
+                                                                    <i class="icon-bus-orange enable"></i>
+                                                                    Общественным транспортом
+                                                                </label>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="search-col search-col-2">
+                                                        <input type="text" class="form-control  search-input" name="search-route" placeholder="Откуда вы поедете?">
+                                                    </div>
+
+                                                    <div class="search-col search-col-3">
+                                                        <button type="submit" class="btn btn-secondary btn-up search-btn">Проложить маршрут</button>
+                                                    </div>
+
+                                                </div>
+
+                                            </form>
+
+                                            <div class="route-descript">
+
+                                                <div class="route-steps_wrapp">
+                                                    <div class="route-steps">
+                                                        <div class="step">
+                                                            <i class="icon-human"></i>
+                                                        </div>
+                                                        <div class="step">
+                                                            <i class="icon-metro"></i>
+                                                            <p class="red-sq count">1</p>
+                                                        </div>
+                                                        <div class="step">
+                                                            <i class="icon-metro"></i>
+                                                            <p class="green-sq count">2</p>
+                                                        </div>
+                                                        <div class="step">
+                                                            <i class="icon-bus-grey"></i>
+                                                            <p class="sq-num">1020</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="res-time">
+                                                        <p>&#8776; 2 часа</p>
+                                                    </div>
+                                                </div>
+
+                                                <p>Подробное описание маршрута, места пересадок и ориентиры, которые помогут облегчить пользователю понимание пути. Подробное описание маршрута, места пересадок и ориентиры, которые помогут облегчить пользователю понимание пути. Подробное описание маршрута, места пересадок и ориентиры, которые помогут облегчить пользователю понимание пути.</p>
+
+                                            </div>
+
+                                            <div class="route-map_wrapp">
+                                                <div class="route-map" id="map_route"></div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- /Как доехать -->
+
                                 </div>
                                 <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
                                     Content for tab3
@@ -1324,8 +1411,9 @@
         <script src="js/scripts.js"></script>
 
 
-
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <script src="js/scripts_new.js"></script>
+        <script src="js/map.js"></script>
 
         
     </body>
