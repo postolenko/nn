@@ -252,10 +252,10 @@
 	text-transform: uppercase;
 	border: 1px solid transparent;
 	color: #ffffff;
-    font-family: "Fira Sans Compressed", sans-serif;
+    font-family: "Fira Sans Semibold", sans-serif;
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-submit:active {
