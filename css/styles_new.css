@@ -7,6 +7,10 @@
 	text-align: right;
 }
 
+.align-center {
+	text-align: center;
+}
+
 /*-- Share --*/
 
 .slide-descript {
@@ -1212,3 +1216,98 @@ a.h5:hover {
 
 
 /*-- /Как доехать --*/
+
+
+/*-- Генплан --*/
+
+.thumbnails_3 {
+	margin: 0 -40px;
+}
+
+.thumb_3 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 0;
+	padding: 0 40px;
+}
+
+.thumbnails_3 .thumb_3 {
+	width: 25%;
+	text-align: left;
+}
+
+.thumb_3 .inner {
+	display: inline-table;
+	vertical-align: top;
+}
+
+.thumb_3 .icon-box {
+	display: table-cell;
+	vertical-align: middle;
+	width: 65px;
+}
+
+.thumb_3 .desc {
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+}
+
+.thumb_3 .icon-box img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 98%;
+}
+
+.thumb_3 h5 {
+	margin-bottom: 0;
+	color: #000000;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.thumb_3 p {
+	margin-bottom: 0;
+	color: #777777;
+	font-family: "Fira Sans Light", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.photo_wrapp {
+	display: block;
+	width: 864px;
+	max-height: 594px;
+	margin: 18px auto;
+	position: relative;
+}
+
+.photo_wrapp img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+.plus-btn {
+	display: block;
+	width: 44px;
+	height: 44px;
+	border: none;
+	background-image: url(../images/plus_btn.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.photo_wrapp .plus-btn {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+}
+
+/*-- /Генплан --*/
