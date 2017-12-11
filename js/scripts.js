@@ -29,12 +29,9 @@ $(document).ready(function () {
 
     var sliderName;
     var sliderNameAttr;
-    var sliderMiniatures;
-    var navThumb;
     var slideDesc;
     var slideDescTxt;
     var item;
-    var itemPrev;
 
     var gkSlider =  $('.gk-slider').owlCarousel({
         loop: true,
@@ -61,31 +58,9 @@ $(document).ready(function () {
         }
     });
 
-    // gkSlider.on('change.owl.carousel', function(event) {
-
-    //     item = event.item.index;
-
-    //     console.log(item);
-        
-    //     sliderNameAttr = $(this).attr("data-slider");
-    //     sliderMiniatures = $(".thumbnails-nav[data-slider-miniatures = '"+ sliderNameAttr + "']");
-    //     navThumb = sliderMiniatures.find(".nav-thumb");
-    //     navThumb.eq(item).removeClass("active");
-
-    // });
-
     gkSlider.on('changed.owl.carousel', function(event) {
 
         item = event.item.index;
-
-        // console.log(item);
-
-        // sliderNameAttr = $(this).attr("data-slider");
-
-        // sliderMiniatures = $(".thumbnails-nav[data-slider-miniatures = '"+ sliderNameAttr + "']");
-        // navThumb = sliderMiniatures.find(".nav-thumb");
-
-        // navThumb.eq(item).addClass("active");
 
         slideDesc  = $(".slide-descript-row[data-slider-desc = '"+ sliderNameAttr + "']");
 
