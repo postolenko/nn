@@ -1214,20 +1214,23 @@ a.h5:hover {
     font-weight: 300;
 }
 
-
 /*-- /Как доехать --*/
 
+/*-- Document --s*/
 
-/*-- Генплан --*/
+.documents_wrapp {
+	border-top: 2px solid #e6e6e6;
+	padding-bottom: 30px;
+}
 
 .thumbnails_3 {
-	margin: 0 -40px;
+	margin: 29px -40px;
 }
 
 .thumb_3 {
 	display: inline-block;
 	vertical-align: top;
-	margin: 20px 0;
+	margin: 29px 0;
 	padding: 0 40px;
 }
 
@@ -1278,11 +1281,20 @@ a.h5:hover {
     font-weight: 300;
 }
 
+/*-- /Document --s*/
+
+/*-- Генплан --*/
+
+.genplan_wrapp {
+	border-top: 2px solid #e6e6e6;
+    padding-bottom: 81px;
+}
+
 .photo_wrapp {
 	display: block;
 	width: 864px;
 	max-height: 594px;
-	margin: 18px auto;
+	margin: 10px auto;
 	position: relative;
 }
 
