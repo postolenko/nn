@@ -6,3 +6,4 @@
 # http://postolenko.github.io/nn/genplan.html
 # http://postolenko.github.io/nn/documents_gk.html
 # http://postolenko.github.io/nn/photo_gallery.html
+# http://postolenko.github.io/nn/building_diary.html
