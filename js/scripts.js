@@ -32,6 +32,8 @@ $(document).ready(function () {
     var slideDesc;
     var slideDescTxt;
     var item;
+    var hashAttr;
+    var miniaturesNav;
 
     var gkSlider =  $('.gk-slider').owlCarousel({
         loop: true,
@@ -62,6 +64,24 @@ $(document).ready(function () {
 
         item = event.item.index;
 
+        hashAttr = $(this).find(".owl-item:eq("+ item +") .carousel-item").attr("data-hash");
+
+        miniaturesNav = $("[data-slider-miniatures = '"+ sliderNameAttr +"']");
+
+        miniaturesNav.find(".nav-thumb").each(function() {
+
+            if( $(this).attr("href") == "#"+ hashAttr ) {
+
+                $(this).addClass("active");
+
+            } else {
+
+                $(this).removeClass("active");
+
+            }
+
+        });
+
         slideDesc  = $(".slide-descript-row[data-slider-desc = '"+ sliderNameAttr + "']");
 
         slideDescTxt = $(this).find(".owl-item:eq("+ item +") .carousel-item").attr("data-descript");
@@ -75,6 +95,24 @@ $(document).ready(function () {
         sliderName = $(event.target);
 
         sliderNameAttr = sliderName.attr("data-slider");
+
+        hashAttr = sliderName.find(".owl-item.active .carousel-item").attr("data-hash");
+
+        miniaturesNav = $("[data-slider-miniatures = '"+ sliderNameAttr +"']");
+
+        miniaturesNav.find(".nav-thumb").each(function() {
+
+            if( $(this).attr("href") == "#"+ hashAttr ) {
+
+                $(this).addClass("active");
+
+            } else {
+
+                $(this).removeClass("active");
+
+            }
+
+        });
 
         slideDesc  = $(".slide-descript-row[data-slider-desc = '"+ sliderNameAttr + "']");
 
@@ -90,7 +128,7 @@ $(document).ready(function () {
         touchDrag: true,
         dots: true,
         nav: true,
-        onInitialized: showItem,
+        onInitialized: showItem2,
         responsiveClass: true,
         responsive:{
             0:{
@@ -123,7 +161,7 @@ $(document).ready(function () {
 
     });
 
-    function showItem(event) {
+    function showItem2(event) {
 
         sliderName = $(event.target);
 
