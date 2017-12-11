@@ -1314,16 +1314,16 @@ a.h5:hover {
 
 /*-- Дневник стройки --*/
 
-.section-slider .gk-slider {
+.section-slider .slider_2 {
 	max-width: 1128px;
 	margin: 0 auto;
 }
 
-.section-slider .gk-slider .carousel-item {
+.section-slider .slider_2 .carousel-item {
     height: 598px;
 }
 
-.gk-slider.carousel-slider-discount .owl-dots {
+.slider_2.carousel-slider-discount .owl-dots {
     display: block;
     bottom: -65px;
 }
@@ -1347,6 +1347,10 @@ a.h5:hover {
     line-height: 18px;
     font-weight: 300;
     font-style: italic;
+}
+
+.photogallery-slider {
+
 }
 
 
