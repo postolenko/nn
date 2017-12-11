@@ -48,4 +48,13 @@ $(document).ready(function() {
 
 	});
 
+
+	$(".play-btn-big").click(function() {
+
+		parentBlock = $(this).closest(".carousel-item");
+
+		parentBlock.find(".owl-video").click();
+
+	});
+
 });
