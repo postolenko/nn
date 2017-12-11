@@ -1314,6 +1314,84 @@ a.h5:hover {
 
 /*-- Дневник стройки --*/
 
+.object-diary-form {
+	text-align: center;
+	margin: 24px 0;
+}
+
+.object-diary-form .col-lg-2 {
+	padding: 0 14px;
+}
+
+.object-diary-form .dropdown .dropdown-toggle{
+	border-color: #e2e2e2;
+}
+
+.thumbnails-nav {
+	margin: 6px 0;
+	text-align: center;
+}
+
+.nav-thumb {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin: 10px 14px;
+}
+
+.nav-thumb .img-box {
+	width: 99px;
+	height: 99px;
+	overflow: hidden;
+	position: relative;
+	border: 5px solid #e3e3e3;
+}
+
+.nav-thumb.active .img-box {
+	border-color: #f29100;
+	z-index: 2;
+}
+
+.nav-thumb .img-box img {
+	display: block;
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	border: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.miniature-desc {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0;
+	padding: 0 4px;
+	background: #000000;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.nav-thumb .miniature-desc {
+	z-index: 2;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+
+.nav-thumb.active .miniature-desc {
+	color: #f29100;
+}
+
 .section-slider .slider_2 {
 	max-width: 1128px;
 	margin: 0 auto;
