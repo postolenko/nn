@@ -5,3 +5,4 @@
 # http://postolenko.github.io/nn/open_news.html
 # http://postolenko.github.io/nn/genplan.html
 # http://postolenko.github.io/nn/documents_gk.html
+# http://postolenko.github.io/nn/photo_gallery.html

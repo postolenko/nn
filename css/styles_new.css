@@ -1311,3 +1311,45 @@ a.h5:hover {
 }
 
 /*-- /Генплан --*/
+
+/*-- Дневник стройки --*/
+
+.section-slider .gk-slider {
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.section-slider .gk-slider .carousel-item {
+    height: 598px;
+}
+
+.gk-slider.carousel-slider-discount .owl-dots {
+    display: block;
+    bottom: -65px;
+}
+
+.owl-dots .owl-dot span {
+    background-color: #e6e6e6;
+    border: 3px solid #e6e6e6;
+}
+
+.section-slider .slide-descript-row {
+	position: relative;
+	bottom: 0;
+}
+
+.slide-descript-row {
+	margin: 7px 0;
+	text-align: center;
+	color: #000000;
+	font-family: "Fira Sans Condensed LightItalic", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+
+/*-- .Дневник стройки --*/
