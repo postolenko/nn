@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 		parentBlock = $(this).closest(".carousel-item");
 
-		parentBlock.find(".owl-video").click();
+		parentBlock.click();
 
 	});
 
