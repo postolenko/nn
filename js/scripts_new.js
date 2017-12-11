@@ -55,6 +55,8 @@ $(document).ready(function() {
 
 		parentBlock.find(".owl-video-play-icon").click();
 
+		$(this).fadeIn(300);
+
 	});
 
 });
