@@ -1474,5 +1474,49 @@ a.h5:hover {
 
 }
 
+.nav-thumb {
+
+}
+
+.miniature-desc i {
+	margin: 5px 2px;
+}
+
+.play-white {
+	display: block;
+	width: 11px;
+	height: 12px;
+	background-image: url(../images/play_white.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.play-yellow {
+	display: block;
+	width: 11px;
+	height: 12px;
+	background-image: url(../images/play_yellow.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.nav-thumb .icon-hidden {
+	display: none;
+}
+
+.nav-thumb.active .icon-hidden {
+	display: block;
+}
+
+.nav-thumb .icon-show {
+	display: block;
+}
+
+.nav-thumb.active .icon-show {
+	display: none;
+}
+
 
 /*-- .Дневник стройки --*/
