@@ -7,3 +7,4 @@
 # http://postolenko.github.io/nn/documents_gk.html
 # http://postolenko.github.io/nn/photo_gallery.html
 # http://postolenko.github.io/nn/building_diary.html
+# http://postolenko.github.io/nn/video_2.html
