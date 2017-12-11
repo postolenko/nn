@@ -1394,8 +1394,6 @@ a.h5:hover {
 .miniature-desc {
 	display: inline-block;
 	vertical-align: top;
-	min-height: 23px;
-	min-width: 24px;
 	margin-bottom: 0;
 	padding: 0 4px;
 	background: #000000;
@@ -1472,20 +1470,8 @@ a.h5:hover {
     font-style: italic;
 }
 
-.photogallery-slider {
-
-}
-
-.nav-thumb {
-
-}
-
 .miniature-desc i {
-	display: inline-block;
-	vertical-align: top;
-	margin: 5px 0;
-	position: relative;
-	left: 1px;
+	margin: 5px 2px -1px 4px;
 }
 
 .play-white {
