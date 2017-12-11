@@ -1394,6 +1394,8 @@ a.h5:hover {
 .miniature-desc {
 	display: inline-block;
 	vertical-align: top;
+	min-height: 23px;
+	min-width: 24px;
 	margin-bottom: 0;
 	padding: 0 4px;
 	background: #000000;
@@ -1479,7 +1481,11 @@ a.h5:hover {
 }
 
 .miniature-desc i {
-	margin: 5px 2px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0;
+	position: relative;
+	left: 1px;
 }
 
 .play-white {
@@ -1507,11 +1513,11 @@ a.h5:hover {
 }
 
 .nav-thumb.active .icon-hidden {
-	display: block;
+	display: inline-block;
 }
 
 .nav-thumb .icon-show {
-	display: block;
+	display: inline-block;
 }
 
 .nav-thumb.active .icon-show {
