@@ -1583,7 +1583,12 @@ a.h5:hover {
 
 /*-- Testimonials --*/
 
-.testimonilas_wrapp {
+.testimonials_tab {
+	border-top: 2px solid #e6e6e6;
+	padding-bottom: 69px;
+}
+
+.testimonials_wrapp {
 	max-width: 800px;
 	margin: 0 auto;
     padding: 52px 0 0 0;
