@@ -1568,6 +1568,120 @@ a.h5:hover {
     font-weight: 300;
 }
 
+/*-- /Дневник стройки --*/
 
+/*-- Testimonials --*/
 
-/*-- .Дневник стройки --*/
+.testimonilas_wrapp {
+	max-width: 800px;
+	margin: 0 auto;
+    padding: 52px 0 0 0;
+}
+
+.testimonial div.h4 {
+	color: #000000;
+	margin-bottom: 2px;
+}
+
+.testimonial p.date {
+	margin-bottom: 0;
+	color: #f29100;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.testimonial-box {
+	background-color: #f1f1f1;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	margin: 32px 0 0 0;
+	padding: 31px 38px;
+	position: relative;
+}
+
+.testimonial-box:before {
+	display: block;
+	content: "";
+	width: 40px;
+	height: 48px;
+	position: absolute;
+	top: -23px;
+	left: 0;
+	background-image: url(../images/shape_grey.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.testimonial-box p {
+	margin-bottom: 0;
+	color: #000000;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.testimonial-ansver {
+	display: block;
+	float: right;
+	max-width: 336px;
+	margin-bottom: -25px;
+}
+
+.testimonial-ansver div.h4 {
+	color: #000000;
+	margin-bottom: 2px;
+}
+
+.testimonial-ansver-box {
+	background-color: #f29100;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	margin: -16px 0 0 0;
+	padding: 31px 38px;
+	position: relative;
+}
+
+.testimonial-ansver-box p {	
+	margin-bottom: 0;
+	color: #ffffff;
+	font-family: "Fira Sans Condensed Light", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.testimonial-ansver-box p.date {
+	margin-bottom: 0;
+}	
+
+.testimonial-ansver-box:before {
+	display: block;
+	content: "";
+	width: 40px;
+	height: 48px;
+	position: absolute;
+	bottom: -23px;
+	right: 0;
+	background-image: url(../images/shape_yellow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.testimonial-descript {
+	margin: 36px 0 0 0;
+	text-align: left;
+}
+
+.add-testimonial {
+	min-width: 220px;
+	margin: 59px 0 20px 0;
+}
+
+/*-- /Testimonials --*/
