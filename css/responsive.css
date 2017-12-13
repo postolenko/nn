@@ -321,6 +321,15 @@
 	    height: 480px;
 	}
 
+	.flate-card .card-col-2 .compas {
+	    top: 26px;
+	    right: 0;
+	}
+
+	.flate-card .card-col-2 .plus-btn {
+	    right: 0;
+	}
+
 	/*-- /Flat Card --*/
 
 }
