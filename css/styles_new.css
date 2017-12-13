@@ -1720,6 +1720,7 @@ a.h5:hover {
 .popup {
 	background-color: #ffffff;
 	margin: 0 auto;
+	max-width: 96%;
 	padding: 59px 40px 27px 40px;
 	position: relative;
 	top: 100px;
@@ -1908,10 +1909,6 @@ p.contacts-p {
 
 .btn-submit.yellow-btn {
 	background-color: #f29200;
-}
-
-.card-form .btn-submit {
-	
 }
 
 .yellow-link {

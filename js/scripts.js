@@ -189,7 +189,7 @@ $(document).ready(function () {
 
 //Active Class in menu
 
-var menuActiveItem = (function() {
+    var menuActiveItem = (function() {
     var menuItems   = $('.menu > li > a');
     var activeClass = "active";
 
