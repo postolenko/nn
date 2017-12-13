@@ -1,0 +1,452 @@
+@media only screen and (max-width: 1600px) {
+
+	.favor {
+		display: none;
+	}
+
+	/*-- Share --*/
+
+	.thumb_1 {
+	    width: 33.33%;
+	}
+
+	/*-- /Share --*/
+
+
+	/*-- Mortgage --*/
+
+	.mortgages-header h5 {
+	    font-size: 19px;
+	}
+
+	/*-- /Mortgage --*/
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+	/*-- Mortgage --*/
+
+	.two-cols-templ .two-col-1 {
+	    padding-right: 10px;
+	}
+
+	.two-cols-templ .two-col-2 {
+	    padding-left: 10px;
+	}
+
+	.thumbnails_2 .thumb_2 {
+	    width: 33.33%;
+	}
+
+	/*-- /Mortgage --*/
+
+	/*-- Documents --*/
+
+	.thumbnails_3 {
+	    margin: 29px -7px;
+	}
+
+	.thumbnails_3 .thumb_3 {
+		width: 33.33%;
+	    padding: 0 10px;
+	}
+
+	/*-- /Documents --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	/*-- Mortgage --*/
+
+	.two-cols-templ .two-col-1 {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.two-cols-templ .two-col-2 {
+	    width: 100%;
+	    padding-top: 20px;
+	    padding-left: 0;
+	}
+
+	/*-- /Mortgage --*/
+
+	/*-- Как доехать --*/
+
+	.route-descript {
+	    padding: 19px 0 0 0;
+	}
+
+	.search-route .search-col-1 {
+	    width: 100%;
+	    padding-right: 0;
+	    text-align: center;
+	}
+
+	.search-route .search-col-2 {
+	    padding: 5px 5px 5px 0;
+	    width: calc(100% - 240px);
+	}
+
+	.search-route .search-col-3 {
+	    padding-left: 10px;
+	}
+
+	/*-- /Как доехать --*/
+
+	/*-- Open News --*/
+
+	.two-cols-templ_2 .two-col-1 {
+	    width: 100%;
+	    float: none;
+	    padding-right: 0;
+	}
+
+	.two-cols-templ_2 .two-col-2 {
+	    width: 100%;
+	    float: none;
+	    padding-left: 0;
+	}
+
+	.news-photo {
+	    margin: 40px 0 0 0;
+	}
+
+	/*-- /Open News --*/
+
+}
+
+
+@media only screen and (max-width: 960px) {
+
+	/*-- Share --*/
+
+	.thumbnails_1 {
+		margin: 31px -10px 45px -10px;
+	}
+
+	.thumb_1 {
+	    width: 50%;
+	}
+
+	/*-- /Share --*/
+
+	/*-- Documents --*/
+
+	.thumbnails_3 {
+	    margin: 29px -7px;
+	}
+
+	.thumbnails_3 .thumb_3 {
+		width: 50%;
+	    padding: 0 10px;
+	}
+
+	/*-- /Documents --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*-- Share --*/
+
+	.section-slider .carousel-caption-content-discount {
+	    height: auto;
+	    top: 0;
+	    transform: translate(0, 0);
+	    -webkit-transform: translate(0, 0);
+	}
+
+	/*-- /Share --*/
+
+	/*-- Mortgage --*/
+
+	.from-block .col-4 {
+	    -ms-flex: 0 0 100%;
+	    flex: 0 0 100%;
+	    max-width: 100%;
+	    padding-bottom: 10px;
+	}
+
+	.mortgages-header .cell {
+		width: 33.33%;
+	}
+
+	.mortgages-header .cell-3 {
+	    display: none;
+	}
+
+	.bank-header .cell {
+		width: 33.33%;
+	}
+
+	.bank-header .cell-3 {
+	    display: none;
+	}
+
+	.bank-inner-table .cell {
+	    width: 33.33%;
+	}
+
+	.bank-inner-table .cell-3 {
+	    display: none;
+	}
+
+	.bank-inner-table p {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+
+	.two-cols-inner .col {
+	    width: 100%;
+	}
+
+	.two-cols-inner .col:nth-child(odd) {
+	    padding-right: 0;
+	}
+
+	.two-cols-inner .col:nth-child(even) {
+	    padding-left: 0;
+	}
+
+	/*-- /Mortgage --*/
+
+	/*-- Дневник стройки --*/
+
+	.object-diary-form .form-group-col-2 {
+		display: block;
+	    max-width: 320px;
+	    flex: none;
+	    margin: 0 auto;
+	    padding: 5px 0;
+	}
+
+	.nav-thumb {
+	    margin: 10px;
+	}
+
+	.section-slider .slider_2 .carousel-item {
+	    height: 440px;
+	}
+
+	.slider_2.carousel-slider-discount .owl-dots {
+		position: relative;
+		text-align: center;
+	    margin-bottom: 20px;
+	    bottom: 0;
+	}
+
+	/*-- /Дневник стройки --*/
+
+	/*-- Open News --*/
+
+	.news-article-txt h3 {
+	    margin-bottom: 0;
+	}
+
+	.inner-two-cols .inner-col {
+		padding-bottom: 10px;
+	}
+
+	.inner-two-cols .inner-col:nth-child(odd) {
+	    width: 100%;
+	    float: none;
+	    padding-right: 0;
+	}
+
+	.inner-two-cols .inner-col:nth-child(even) {
+	    width: 100%;
+	    float: none;
+	    padding-left: 0;
+	    text-align: left;
+	}
+
+	.news-article-txt {
+	    padding: 0 0 20px 0;
+	}
+
+	/*-- /Open News --*/
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	/*-- Share --*/
+
+	.thumb_1 {
+		display: block;
+	    width: 90%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	/*-- /Share --*/
+
+	/*-- Mortgage --*/
+
+	.mortgages-header .cell {
+		width: 50%;
+	}
+
+	.mortgages-header .cell-4 {
+	    display: none;
+	}
+
+	.bank-header .cell {
+		width: 50%;
+	}
+
+	.bank-header .cell-4 {
+	    display: none;
+	}
+
+	.thumbnails_2 .thumb_2 {
+	    width: 50%;
+	}
+
+	.bank-inner-table .cell {
+	    width: 50%;
+	}
+
+	.bank-inner-table .cell-4 {
+	    display: none;
+	}
+
+	.cons_btn {
+		width: 100%;
+		font-size: 14px;
+		padding: 14px 10px;
+	}
+
+	/*-- /Mortgage --*/
+
+	/*-- Как доехать --*/
+
+	.choisen-radio {
+	    width: 100%;
+	}
+
+	.choisen-radio .radio-box {
+	    width: 50%;
+	}
+
+	.search-route .search-col-2 {
+	    padding: 5px 0;
+	    width: 100%;
+	}
+
+	.search-route .search-col-3 {
+		width: 100%;
+	    padding-left: 0;
+	}
+
+	.search-route .search-btn {
+	    width: 100%;
+	}
+
+	.route-map {
+	    height: 467px;
+	}
+
+	/*-- /Как доехать --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	/*-- Share --*/
+
+	.thumb_1 {
+	    width: 96%;
+	}
+
+	/*-- /Share --*/
+
+	/*-- Mortgage --*/
+
+	.mortgages-header {
+	    padding: 30px 30px 30px 10px;
+	}
+
+	.mortgage-block .sliding-block {
+	    padding: 20px 30px 39px 10px;
+	}
+
+	.bank-header {
+	    padding: 0 30px 0 10px;
+	}
+
+	.sliding-bl_inner {
+	    padding-right: 10px;
+	}
+
+	.thumbnails_2 .thumb_2 {
+	    width: 100%;
+	}
+
+	.cons_btn {
+		font-size: 12px;
+		padding: 14px 5px;
+	}
+
+	/*-- /Mortgage --*/
+
+	/*-- Documents --*/
+
+	.thumbnails_3 {
+	    margin: 29px 0;
+	}
+
+	.thumbnails_3 .thumb_3 {
+		width: 100%;
+		margin: 10px 0;
+	    padding: 0;
+	}
+
+	/*-- /Documents --*/
+
+	/*-- Open News --*/
+
+	.pagination_2 {
+	    margin: 0 0 17px 0;
+	}
+
+	.pagination_2 li a {
+	    font-size: 13px;
+	    line-height: 24px;
+	}
+
+	.pagination_2 .prev:before {
+	    top: 3px;
+	}
+
+	.pagination_2 .next:after {
+	    top: 3px;
+	}
+
+	.pagination_2 li:after {
+	    top: 7px;
+	}
+
+	/*-- /Open News --*/
+
+	/*-- Testimonials --*/
+
+	.testimonilas_wrapp {
+	    padding: 34px 0 0 0;
+	}
+
+	.testimonial-box {
+	    padding: 15px 20px;
+	}
+
+	.testimonial-ansver-box {
+		margin: -4px 0 0 0;
+	    padding: 15px 20px;
+	}
+
+	/*-- /Testimonials --*/
+
+}
