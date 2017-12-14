@@ -1,7 +1,7 @@
 //Slider and carousel
 
 $(document).ready(function () {
-    $('.owl-carousel.carousel-main-slider').owlCarousel({
+    $('.carousel-main-slider').owlCarousel({
         loop:false,
         mouseDrag: false,
         touchDrag: true,
