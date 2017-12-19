@@ -2192,17 +2192,8 @@ p.contacts-p {
 
 /*-- /Object Secondary --*/
 
-
-.gk-slider-2 {
-	margin-top: 17px;
-	margin-bottom: 17px;
-	overflow: hidden;
-}
-
 .gk-slider-2 .carousel-item {
 	height: 600px;
-	margin-top: 0;
-	margin-bottom: 0;
 }
 
 .carousel-slider-discount.gk-slider-2 .owl-dots {
