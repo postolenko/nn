@@ -2196,6 +2196,7 @@ p.contacts-p {
 .gk-slider-2 {
 	margin-top: 17px;
 	margin-bottom: 17px;
+	overflow: hidden;
 }
 
 .gk-slider-2 .carousel-item {

@@ -388,7 +388,7 @@ $(document).ready(function () {
             mouseDrag: false,
             touchDrag: true,
             dots: false,
-            nav: false,
+            nav: true,
             onInitialized: showItem,
             responsiveClass: true,
             responsive:{
