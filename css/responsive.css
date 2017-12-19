@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1700px) {
+
+	/*-- Share --*/
+
+	.section-slider .carousel-slider-discount .owl-prev {
+	    left: 0;
+	}
+
+	.section-slider .carousel-slider-discount .owl-next {
+	    right: 0;
+	}
+
+	/*-- /Share --*/
+
+}
+
 @media only screen and (max-width: 1600px) {
 
 	.favor {
@@ -15,7 +31,7 @@
 
 	/*-- Mortgage --*/
 
-	.mortgages-header h5 {
+	.mortgages-header div.h5 {
 	    font-size: 19px;
 	}
 
@@ -67,6 +83,18 @@
 
 	/*-- /Mortgage --*/
 
+	/*-- Slider --*/
+
+	.carousel-slider-discount.slider_2 .owl-prev {
+	    left: -15px !important;
+	}
+
+	.carousel-slider-discount.slider_2 .owl-next {
+	    right: -15px !important;
+	}
+
+	/*-- /lider --*/
+
 	/*-- Documents --*/
 
 	.thumbnails_3 {
@@ -79,6 +107,24 @@
 	}
 
 	/*-- /Documents --*/
+
+	/*-- Object Secondary --*/
+
+	.tpl_3-col {
+		width: 100%;
+	}
+
+	.tpl_3-col:nth-child(odd) {
+		float: none;
+		padding-right: 0;
+	}
+
+	.tpl_3-col:nth-child(even) {
+		float: none;
+		padding-left: 0;
+	}
+
+	/*-- /Object Secondary --*/
 
 }
 
@@ -292,7 +338,7 @@
 
 	/*-- Open News --*/
 
-	.news-article-txt h3 {
+	.news-article-txt div.h3 {
 	    margin-bottom: 0;
 	}
 
@@ -335,6 +381,44 @@
 	}
 
 	/*-- /Flat Card --*/
+
+	/*-- Object Secondary --*/
+
+	.two-cols_templ_3 {
+	    margin: 10px 0;
+	}
+
+	.info_wrapp .info-box {
+		width: 100%;
+	}
+
+	.info-box {
+		margin-top: 38px;
+		margin-bottom: 0;
+	}
+
+	.info_wrapp .info-box:nth-child(odd) {
+		float: none;
+	}
+
+	.info_wrapp .info-box:nth-child(even) {
+		float: none;
+	}
+
+	.thumbnails_4 .thumb_3 {
+	    width: 50%;
+	}
+
+	.submit-block {
+	    padding-bottom: 35px;
+	}
+
+	.submit-block .inner {
+		padding: 0;
+	}
+
+	/*-- /Object Secondary --*/
+
 
 }
 
@@ -418,6 +502,14 @@
 	}
 
 	/*-- /Как доехать --*/
+
+	/*-- Object Secondary --*/
+
+	.thumbnails_4 .thumb_3 {
+	    width: 100%;
+	}
+
+	/*-- /Object Secondary --*/
 
 }
 
