@@ -31,6 +31,8 @@ $(document).ready(function () {
 
         var sliderNameAttr = $(this).attr("data-slider");
 
+        var item = event.item.index;
+
         if( $("[data-slider-nav = '" + sliderNameAttr + "' ]").length > 0 ) {
 
             var hashAttr = $(this).find(".owl-item:eq("+ event.item.index +") .carousel-item").attr("data-hash");
@@ -53,11 +55,23 @@ $(document).ready(function () {
 
         }
 
+        if( $(".slider-descript[data-slider-desc = '"+ sliderNameAttr + "']").length > 0 ) {
+
+            var slideDesc  = $(".slider-descript[data-slider-desc = '"+ sliderNameAttr + "']");
+
+            var slideDescTxt = $(this).find(".owl-item:eq("+ item +") .slide-hidden-desc").html();
+
+            slideDesc.html(slideDescTxt);
+
+        }  
+
     });
 
     function activeThumb(event) {
 
         var sliderName = $(event.target);
+
+        var item = event.item.index;
 
         var sliderNameAttr = sliderName.attr("data-slider");
 
@@ -81,7 +95,17 @@ $(document).ready(function () {
 
             });
 
-        }
+        }        
+
+        if( $(".slider-descript[data-slider-desc = '"+ sliderNameAttr + "']").length > 0 ) {
+
+            var slideDesc  = $(".slider-descript[data-slider-desc = '"+ sliderNameAttr + "']");
+
+            var slideDescTxt = sliderName.find(".owl-item:eq("+ item +") .slide-hidden-desc").html();
+
+            slideDesc.html(slideDescTxt);
+
+        }        
 
     }
 

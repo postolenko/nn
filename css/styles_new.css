@@ -67,6 +67,14 @@ div.h1 span.small {
 
 /*-- Share --*/
 
+.slide-hidden-desc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: -1;
+}
+
 .slider-descript {
 	max-width: 740px;
 	margin: 43px auto 10px auto;
@@ -313,6 +321,7 @@ div.h1 span.small {
 	display: table;
 	width: 100%;
 	padding: 30px 70px 30px 38px;
+	border-bottom: 1px solid #f3970d;
 }
 
 .mortgages-header .table-row {
@@ -338,10 +347,6 @@ div.h1 span.small {
 	position: relative;
 	background: #ffffff;
 	border-bottom: 1px solid #f3970d;
-}
-
-.mortgage-block:nth-child(1) .bank-header {
-	border-top: 1px solid #f3970d;
 }
 
 .bank-header .table-row {
