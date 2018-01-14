@@ -58,6 +58,67 @@ div.h1 span.small {
     font-weight: 300;
 }
 
+.icon-trolleybus {
+    display: block;
+    width: 19px;
+    height: 24px;
+    background-image: url(../images/icon_trolleybus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-trolleybus-orange {
+    display: block;
+    width: 19px;
+    height: 24px;
+    background-image: url(../images/icon_trolleybus_orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-train {
+    display: block;
+    width: 19px;
+    height: 20px;
+    background-image: url(../images/icon_train.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-train-orange {
+    display: block;
+    width: 19px;
+    height: 20px;
+    background-image: url(../images/icon_train_orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-tran {
+    display: block;
+    width: 19px;
+    height: 24px;
+    background-image: url(../images/icon_tran.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-tran-orange {
+    display: block;
+    width: 19px;
+    height: 24px;
+    background-image: url(../images/icon_tran_orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 /*-- /Icons ---*/
 
 /*-- Share --*/
@@ -2460,13 +2521,14 @@ p.contacts-p {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0;
+	text-align: center;
 }
 
 .thumbnails-6 .thumb-6 img {
 	display: block;
-	width: 100%;
+	width: auto;
 	height: auto;
-	max-width: 195px;
+	max-width: 100%;
 }
 
 a.white-pill,

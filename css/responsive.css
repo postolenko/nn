@@ -549,6 +549,10 @@
 	    margin: 26px auto 35px auto;
 	}
 
+	.thumbnails-6 .thumb-6 img {
+		max-width: 150px;
+	}
+
 	/*-- /Developer --*/
 
 }
