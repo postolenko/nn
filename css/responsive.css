@@ -126,6 +126,22 @@
 
 	/*-- /Object Secondary --*/
 
+	/*-- Developer --*/
+
+	.thumb-5 {
+	    width: 50%;
+	}
+
+	.thumbnails-6 {
+	    margin: 44px -10px 23px -10px;
+	}
+
+	.thumbnails-6 .thumb-6 {
+		width: 33.33%;
+	}
+
+	/*-- /Developer --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -419,6 +435,18 @@
 
 	/*-- /Object Secondary --*/
 
+	/*-- Developer --*/
+
+	.thumb-5 {
+	    width: 100%;
+	}
+
+	.thumbnails-6 .thumb-6 {
+	    width: 50%;
+	}
+
+	/*-- /Developer --*/
+
 
 }
 
@@ -510,6 +538,18 @@
 	}
 
 	/*-- /Object Secondary --*/
+
+	/*-- Developer --*/
+
+	.articles_2_wrapp {
+	    padding-top: 43px;
+	}
+
+	.article_2 {
+	    margin: 26px auto 35px auto;
+	}
+
+	/*-- /Developer --*/
 
 }
 
@@ -607,5 +647,33 @@
 	}
 
 	/*-- /Testimonials --*/
+
+	/*-- Developer --*/
+
+	.thumb-5 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.thumb-5 .inner {
+	    padding: 27px 3%;
+	}
+
+	.article_2-col-1 {
+	    width: 52px;
+	}
+
+	.h-green {
+	    font-size: 28px;
+	    line-height: 31px;
+	}
+
+	.thumbnails-6 .thumb-6 {
+	    width: 100%;
+	    padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*-- /Developer --*/
 
 }

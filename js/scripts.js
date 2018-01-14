@@ -318,6 +318,17 @@ $(document).ready(function () {
 
     });
 
+    videoSlider.on('change.owl.carousel', function(event) {
+
+        var item = event.item.index;
+
+        // videoSlider.find(".owl-item:eq("+ item +") .play-btn-big").fadeIn(300);
+        videoSlider.find(".owl-item:eq("+ item +") .play-btn-big").css({
+            "display" : "block"
+        });
+
+    });
+
     function showItem3(event) {
 
         sliderName = $(event.target);
