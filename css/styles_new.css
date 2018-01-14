@@ -1100,8 +1100,8 @@ a.h5:hover {
 
 .icon-bus-grey {
 	display: block;
-	width: 18px;
-	height: 19px;
+	width: 19px;
+	height: 20px;
 	background-image: url(../images/icon_bus_grey.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1110,8 +1110,8 @@ a.h5:hover {
 
 .icon-bus-orange {
 	display: block;
-	width: 18px;
-	height: 19px;
+	width: 19px;
+	height: 20px;
 	background-image: url(../images/icon_bus_orange.png);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1224,9 +1224,9 @@ a.h5:hover {
 
 .icon-human {
 	display: block;
-	width: 15px;
-	height: 26px;
-	background-image: url(../images/human.jpg);
+	width: 11px;
+	height: 20px;
+	background-image: url(../images/walker.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -1236,7 +1236,7 @@ a.h5:hover {
 	display: block;
 	width: 26px;
 	height: 25px;
-	background-image: url(../images/underground.jpg);
+	background-image: url(../images/underground.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -2464,9 +2464,9 @@ p.contacts-p {
 
 .thumbnails-6 .thumb-6 img {
 	display: block;
-	width: auto;
+	width: 100%;
 	height: auto;
-	max-width: 100%;
+	max-width: 195px;
 }
 
 a.white-pill,

@@ -4,6 +4,8 @@ $(document).ready(function() {
 	var slidingBlock;
 	var slidingBtn;
 
+	var thumbnailsHeights = [];
+
 	var w = window,
 	d = document,
 	e = d.documentElement,
@@ -16,6 +18,8 @@ $(document).ready(function() {
 
     getGreyBg();
 
+    getThumbnailsHeght();
+
 	$(window).resize(function() {
 
 		bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
@@ -27,6 +31,8 @@ $(document).ready(function() {
 		getSliderHeight();
 
 		getGreyBg();
+
+		getThumbnailsHeght();
 
 	});
 
@@ -119,6 +125,45 @@ $(document).ready(function() {
 
 
 		});
+
+	}
+
+	function getThumbnailsHeght() {
+
+		var thumbInnerBox;
+		var thmbHeight;
+		var thumbnailsHeight;
+
+		$(".thumb-5").find(".inner").css({
+			"height" : "auto"
+		});
+
+		if( bodyWidth > 768) {
+
+
+			$(".thumbnails-5").each(function() {
+
+				var thumbnailsHeights = [];
+
+				$(this).find(".thumb-5").each(function() {
+
+					thumbInnerBox = $(this).find(".inner");
+
+					thmbHeight = thumbInnerBox.outerHeight();
+
+					thumbnailsHeights.push(thmbHeight);				
+
+				});
+
+				thumbnailsHeight =  Math.max.apply(null, thumbnailsHeights);
+
+				$(this).find(".thumb-5 .inner").css({
+					"height" : thumbnailsHeight + "px"
+				});
+
+			});
+
+		}
 
 	}
 
