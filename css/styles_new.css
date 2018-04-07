@@ -2711,6 +2711,71 @@ button.white-pill:hover {
 	background-color: rgba(255, 255, 255, 1);
 }
 
+.popup.tender_popup {
+	max-width: 790px;
+	padding-top: 69px;
+}
+
+.tender_popup h3 {
+	text-align: center;
+}
+
+.tender-form {
+	max-width: 571px;
+	margin: 31px auto 50px auto;
+}
+
+.tender-form .left {
+	width: 50%;
+	padding-right: 13px;
+}
+
+.tender-form .right {
+	width: 50%;
+	padding-left: 13px;
+}
+
+.tender-form .form-control {
+	margin: 20px 0;
+	height: 43px;
+}
+
+.tender-form .dropdown {
+	margin: 10px 0;
+}
+
+.form-control-orange.show .dropdown-toggle{
+    border-color: #808080;
+}
+
+.form-control-orange {
+	background-color: #ffffff;
+	border-color: #f29200;
+	border-width: 2px;
+}
+
+.dropdown-custom .dropdown-toggle {
+	background-color: #ffffff;
+	border-color: #f29200;
+	border-width: 2px;
+	height: 43px;
+}
+
+.tender-form textarea.form-control {
+	height: 147px;
+}
+
+.tender-form .submit_wrapp {
+	text-align: center;
+}
+
+.tender-submit {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 284px;
+	margin: 19px 0;
+}
+
 @media only screen and (max-width: 767px) {
 
 	.search-btn {
@@ -2719,6 +2784,24 @@ button.white-pill:hover {
 
 	.section-slider .carousel-slider-discount.gk-slider-2 .owl-nav {
 	    display: block;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.tender-form .right {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.tender-form .left {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.tender-submit {
+		min-width: 100%;
 	}
 
 }
