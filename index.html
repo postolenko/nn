@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Главная</title>
+    <title>Новостройка детально</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -11,6 +11,12 @@
     <link href="css/owl.theme.css" rel="stylesheet" />
     <link href="css/jquery-ui.min.css" rel="stylesheet">
     <link href="css/scss/styles.css" rel="stylesheet" />
+    
+    <!-- Новые стили -->
+    <link href="css/styles_new.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="js/lightbox/css/lightbox.min.css" rel="stylesheet" type="text/css" media="screen">
+
 </head>
     <body>
         <div class="main">
@@ -976,5 +982,58 @@
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/scripts.js"></script>
+
+                <script>
+        // $(document).ready(function(){
+
+        //     //for bootstrap 3 use 'shown.bs.tab' instead of 'shown' in the next line
+        //     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        //         //save the latest tab; use cookies if you like 'em better:
+
+        //         localStorage.setItem('selectedTab', $(e.target).attr('id'));
+
+        //         if( $(".gk-slider-2").length > 0 ) {
+
+        //             var w = window,
+        //             d = document,
+        //             e = d.documentElement,
+        //             g = d.getElementsByTagName('body')[0],
+        //             bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;            
+
+        //             if( bodyWidth >= 901 ) {
+            
+        //                 var sliderHeight = $("#colHeight").height();
+
+        //                 $(".gk-slider-2 .carousel-item").css({
+        //                     "height" : sliderHeight + "px"
+        //                 });
+
+        //             } else {
+        //                 $(".gk-slider-2 .carousel-item").css({
+        //                     "height" : 600 + "px"
+        //                 });
+        //             }
+
+        //         }
+
+        //     });
+
+        //     //go to the latest tab, if it exists:
+        //     var selectedTab = localStorage.getItem('selectedTab');
+        //     if (selectedTab == 'infrastructure-tab') {selectedTab = 'about';}
+        //     if (selectedTab) {
+        //       $('#'+selectedTab).tab('show');
+        //     } else {
+        //       $('#myTab a:first').tab('show');
+        //     }
+
+        // });
+        </script>
+
+
+        <!-- <script type="text/javascript" src="js/lightbox/js/lightbox-plus-jquery.min.js"></script> -->
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="js/scripts_new.js"></script>
+        <script src="js/map.js"></script>
     </body>
 </html>

@@ -2744,17 +2744,17 @@ button.white-pill:hover {
 	margin: 10px 0;
 }
 
-.form-control-orange.show .dropdown-toggle{
+.tender-form .form-control-orange.show .dropdown-toggle{
     border-color: #808080;
 }
 
-.form-control-orange {
+.tender-form .form-control-orange {
 	background-color: #ffffff;
 	border-color: #f29200;
 	border-width: 2px;
 }
 
-.dropdown-custom .dropdown-toggle {
+.tender-form .dropdown-custom .dropdown-toggle {
 	background-color: #ffffff;
 	border-color: #f29200;
 	border-width: 2px;
