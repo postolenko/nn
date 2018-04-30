@@ -87,13 +87,20 @@ $(document).ready(function() {
 
 		parentBlock.find(".owl-video-play-icon").click();
 
-		// $(this).fadeOut(300);
-
 		$(this).css({
             "display" : "none"
         });
 
 	});
+
+    $(".sharesthumb_2").each(function () {
+        var thumb = $(this).find(".sharethumb_2");
+        thumb.each(function() {
+            if( $(this).index() % 6 == 0 && $(this).index() == 0) {
+                $(this).addClass("count");
+            }
+        });
+    });
 
 	function getSliderHeight() {
 
