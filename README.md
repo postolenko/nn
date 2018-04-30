@@ -11,3 +11,4 @@
 # http://postolenko.github.io/nn/testimonials.html
 # http://postolenko.github.io/nn/flate_card.html
 # http://postolenko.github.io/nn/developer_new.html
+# http://postolenko.github.io/nn/shares_new.html

@@ -155,10 +155,10 @@
                         <div class="tabs">
                             <ul class="nav nav-tabs list-step" id="myTab" role="tablist">
                                 <li class="item-step item-step-title">
-                                    <a class="active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">Микрорайон «Южное Видное»</a>
+                                    <a id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">Микрорайон «Южное Видное»</a>
                                 </li>
                                 <li class="item-step item-step-location">
-                                    <a id="infrastructure-tab" data-toggle="tab" href="#infrastructure" role="tab" aria-controls="infrastructure" aria-selected="false">Инфраструктура</a>
+                                    <a class="active" id="infrastructure-tab" data-toggle="tab" href="#infrastructure" role="tab" aria-controls="infrastructure" aria-selected="false">Инфраструктура</a>
                                 </li>
                                 <li class="item-step item-step-flat">
                                     <a id="flat-tab" data-toggle="tab" href="#flat" role="tab" aria-controls="flat" aria-selected="false">Выбрать квартиру</a>
@@ -203,7 +203,7 @@
                             </ul>
                             <div class="tab-content" id="myTabContent">
 
-                                <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                                     <div class="row object-detail">
                                         <div class="col-xl-7 col-lg-6">
                                             <!-- <div class="object-image" style="background-image: url('images/object.jpg');"></div> -->
@@ -424,7 +424,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="infrastructure" role="tabpanel" aria-labelledby="infrastructure-tab">
+                                <div class="tab-pane fade show active" id="infrastructure" role="tabpanel" aria-labelledby="infrastructure-tab">
                                     <div class="infrastructure-shows">
                                         <span class="bold">Показать:</span>
                                         <ul class="list-infrastructure">
@@ -1761,6 +1761,53 @@
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/scripts.js"></script>
+
+                <script>
+        $(document).ready(function(){
+
+            //for bootstrap 3 use 'shown.bs.tab' instead of 'shown' in the next line
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                //save the latest tab; use cookies if you like 'em better:
+
+                localStorage.setItem('selectedTab', $(e.target).attr('id'));
+
+                if( $(".gk-slider-2").length > 0 ) {
+
+                    var w = window,
+                    d = document,
+                    e = d.documentElement,
+                    g = d.getElementsByTagName('body')[0],
+                    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;            
+
+                    if( bodyWidth >= 901 ) {
+            
+                        var sliderHeight = $("#colHeight").height();
+
+                        $(".gk-slider-2 .carousel-item").css({
+                            "height" : sliderHeight + "px"
+                        });
+
+                    } else {
+                        $(".gk-slider-2 .carousel-item").css({
+                            "height" : 600 + "px"
+                        });
+                    }
+
+                }
+
+            });
+
+            //go to the latest tab, if it exists:
+            var selectedTab = localStorage.getItem('selectedTab');
+            if (selectedTab == 'infrastructure-tab') {selectedTab = 'about';}
+            if (selectedTab) {
+              $('#'+selectedTab).tab('show');
+            } else {
+              $('#myTab a:first').tab('show');
+            }
+
+        });
+        </script>
 
 
         <!-- <script type="text/javascript" src="js/lightbox/js/lightbox-plus-jquery.min.js"></script> -->
