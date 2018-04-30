@@ -160,6 +160,14 @@
 	
 	/*-- /Share New --*/
 
+	/*-- Popup Shares --*/
+
+	.shares_popup .close_popup {
+	    right: -6px;
+	}
+
+	/*-- /Popup Shares --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -494,6 +502,31 @@
 	
 	/*-- /Share New --*/
 
+	/*-- Popup Shares --*/
+
+	.shares_popup .h_wrapp .h3 {
+	    font-size: 48px;
+	    line-height: 55px;
+	}
+
+	.popup_footer .left {
+	    width: 100%;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+
+	.popup_footer .right {
+	    width: 100%;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+
+	.scroll-box {
+	    margin: 29px 0 21px 0;
+	}
+
+	/*-- /Popup Shares --*/
+
 
 }
 
@@ -601,6 +634,19 @@
 	}
 
 	/*-- /Developer --*/
+
+	/*-- Popup Shares --*/
+
+	.shares_popup {
+	    padding: 24px 3% 32px 3%;
+	}
+
+	.shares_popup .h_wrapp .h3 {
+	    font-size: 37px;
+	    line-height: 44px;
+	}
+
+	/*-- /Popup Shares --*/
 
 }
 
@@ -758,5 +804,34 @@
 	}
 	
 	/*-- /Share New --*/
+
+	/*-- Popup Shares --*/
+
+	.shares_popup .title_wrapp {
+	    padding: 0 7px;
+	}
+
+	.shares_popup .title_wrapp .h3 {
+	    font-size: 24px;
+	}
+
+	.shares_popup .h_wrapp .h3 {
+	    font-size: 29px;
+	    line-height: 39px;
+	}
+
+	.share-range_wrapp {
+	    padding: 0 7px;
+	}
+
+	.scroll-box {
+	    padding: 0 0 0 7px;
+	}
+
+	.popup_footer {
+	    padding: 0;
+	}
+
+	/*-- /Popup Shares --*/
 
 }

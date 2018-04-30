@@ -1,3 +1,9 @@
+$(window).on("load",function(){
+
+	$(".scroll-box").mCustomScrollbar();
+
+});
+
 $(document).ready(function() {
 	
 	var parentBlock;
