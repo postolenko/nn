@@ -107,7 +107,7 @@ $(document).ready(function() {
 
 		} else {
 			$(".gk-slider-2 .carousel-item").css({
-				"height" : 600 + "px"
+				"height" : 385 + "px"
 			});
 		}
 
