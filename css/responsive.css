@@ -63,6 +63,16 @@
 
 	/*-- /Flat Card --*/
 
+
+	/*-- Share New --*/
+
+	.sharethumb_2 .h_wrapp .h3 {
+	    font-size: 49px;
+	    line-height: 55px;
+	}
+	
+	/*-- /Share New --*/
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -141,6 +151,14 @@
 	}
 
 	/*-- /Developer --*/
+
+	/*-- Share New --*/
+
+	.sharethumb_2 {
+		width: 48%;
+	}
+	
+	/*-- /Share New --*/
 
 }
 
@@ -253,6 +271,19 @@
 	}
 
 	/*-- /Flat Card --*/
+
+}
+
+@media only screen and (max-width: 960px) {
+
+	/*-- Share New --*/
+
+	.sharethumb_2 .h_wrapp .h3 {
+	    font-size: 43px;
+	    line-height: 51px;
+	}
+	
+	/*-- /Share New --*/
 
 }
 
@@ -446,6 +477,22 @@
 	}
 
 	/*-- /Developer --*/
+
+	/*-- Share New --*/
+
+	.sharesthumb_2 {
+	    margin: 0 0 20px 0;
+	}
+
+	.sharethumb_2 {
+		margin: 10px 0;
+	    width: 100%;
+	    min-height: auto;
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	
+	/*-- /Share New --*/
 
 
 }
@@ -679,5 +726,37 @@
 	}
 
 	/*-- /Developer --*/
+
+	/*-- Share New --*/
+
+	.sharethumb_2 {
+	    padding: 28px 0 120px 0;
+	}
+
+	.sharethumb_2 .title_wrapp h3 {
+	    margin-bottom: 5px;
+	    font-size: 26px;
+	}
+
+	.sharethumb_2 .h_wrapp {
+	    padding: 17px 0 3px 0;
+	}
+
+	.sharethumb_2 .h_wrapp .h3 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+
+	.share_footer .share_footer_col-1 {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.share_footer .share_footer_col-2 {
+	    width: 100%;
+	    padding: 10px 0 0 0;
+	}
+	
+	/*-- /Share New --*/
 
 }

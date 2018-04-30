@@ -2690,12 +2690,14 @@ button.white-pill:hover {
 	display: inline-block;
 	vertical-align: bottom;
 	width: 64%;
+	padding-right: 1%;
 }
 
 .share_footer .share_footer_col-2 {
 	display: inline-block;
 	vertical-align: bottom;
 	width: 36%;
+	padding-left: 1%;
 	text-align: right;
 }
 
@@ -2728,8 +2730,12 @@ button.white-pill:hover {
 }
 
 .btn_2 {
-	padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 2%;
+}
+
+.share_footer .share_footer_col-2 .btn_2 {
+	width: 100%;
+	max-width: 140px;
 }
 
 .count + .sharethumb_2 .h_wrapp .h3 span {
