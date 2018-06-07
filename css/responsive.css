@@ -502,6 +502,27 @@
 	
 	/*-- /Share New --*/
 
+	/*-- Share New 2 --*/
+
+	.sort_wrapp .left {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	.sort_wrapp .right {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	.sharesthumb_2_wrapp h2 {
+		font-size: 27px;
+    	line-height: 33px;
+	}
+
+	/*-- /Share New 2 --*/
+
 	/*-- Popup Shares --*/
 
 	.shares_popup .h_wrapp .h3 {
@@ -805,6 +826,14 @@
 	
 	/*-- /Share New --*/
 
+	/*-- Share New 2 --*/
+
+	.sort_wrapp .right {
+		text-align: left;
+	}
+
+	/*-- /Share New 2 --*/
+
 	/*-- Popup Shares --*/
 
 	.shares_popup .title_wrapp {
@@ -833,5 +862,14 @@
 	}
 
 	/*-- /Popup Shares --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.sharethumb_2 .h_wrapp .h3 {
+	    font-size: 29px;
+	    line-height: 35px;
+	}
 
 }

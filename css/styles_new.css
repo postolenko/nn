@@ -2761,6 +2761,57 @@ button.white-pill:hover {
 
 /*-- /Share New --*/
 
+/*-- Share New 2 --*/
+
+.sort_wrapp {
+
+}
+
+.sort_wrapp .left {
+	width: 50%;
+	padding: 5px 1% 5px 0;
+}
+
+.sort_wrapp .right {
+	width: 50%;
+	text-align: right;
+	padding: 5px 0 5px 1%;
+}
+
+.sort_wrapp p {
+	margin-bottom: 0;
+	color: #000000;
+}
+
+.green {
+	color: #009640;
+}
+
+.sort_wrapp p .green {
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-weight: 500;
+}
+
+.sharesthumb_2_wrapp {
+	margin: 39px 0;
+}
+
+.sharesthumb_2 {
+	margin-bottom: 10px;
+}
+
+.sharesthumb_2_wrapp h2 {
+	text-align: center;
+	font-family: "Fira Sans Condensed", sans-serif;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 500;
+	color: #777777;
+}
+
+
+/*-- /Share New 2 --*/
+
 /*-- Popup Shares --*/
 
 .close_popup {
