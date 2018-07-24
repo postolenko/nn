@@ -3378,6 +3378,16 @@ button.white-pill:hover {
 		width: 50%;
 	}
 
+	.dropdown-custom_2 .dropdown-menu {
+	    width: 272px !important;
+	}
+
+	.dropdown-custom_2 .dropdown-menu .dropdown-item {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    font-size: 15px;
+	}
+
 }
 
 /*-- /New Styles --*/
