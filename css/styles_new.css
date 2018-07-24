@@ -2804,6 +2804,29 @@ button.white-pill:hover {
 	font-weight: 500;
 }
 
+.dropdown-custom_2 {
+
+}
+
+.dropdown-custom_2 .dropdown-menu {
+	width: 287px !important;
+	background: #777777;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 9px 0 0 0;
+    min-width: 100%;
+    width: 100%;
+}
+
+.dropdown-custom_2 .dropdown-menu .dropdown-item {
+	padding-left: 20px;
+    padding-right: 20px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+}
+
 .sharesthumb_2_wrapp {
 	margin: 39px 0;
 }
@@ -3352,11 +3375,7 @@ button.white-pill:hover {
 	}
 
 	.pay_th {
-/*		display: inline-block;
-		vertical-align: top;*/
 		width: 50%;
-/*		padding: 7px 1%;
-		text-align: center;*/
 	}
 
 }
