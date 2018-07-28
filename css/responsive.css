@@ -154,8 +154,13 @@
 
 	/*-- Share New --*/
 
+	.sharesthumb_2 {
+	    margin: 0 -1% 79px -1%;
+	}
+
 	.sharethumb_2 {
 		width: 48%;
+		margin: 10px 1%;
 	}
 	
 	/*-- /Share New --*/
