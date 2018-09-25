@@ -17,4 +17,4 @@
 # http://postolenko.github.io/nn/shares_new_popup.html
 # http://postolenko.github.io/nn/button.html
 # http://postolenko.github.io/nn/requisites_popup.html
-# http://postolenko.github.io/nn/catalog.html
+# http://postolenko.github.io/nn/catalog_gk.html
