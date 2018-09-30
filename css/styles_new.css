@@ -3347,7 +3347,7 @@ button.white-pill:hover {
 
 .catalog_gk_wrapp {
 	border-top: 1px solid #e2e2e2;
-	padding: 18px 0 0 0;
+	padding: 18px 0 10px 0;
 }
 
 .catalog_gk_wrapp .h3 {
@@ -3365,6 +3365,14 @@ button.white-pill:hover {
 	vertical-align: top;
 	width: 16.66%;
 	padding: 0 15px;
+}
+
+.catalog_gk.catalog-col-3 .catalog-col {
+	width: 33.33%;
+}
+
+.catalog_gk.catalog-col-4 .catalog-col {
+	width: 25%;
 }
 
 .catalog-col ul li  {
@@ -3419,6 +3427,10 @@ button.white-pill:hover {
 		width: 33.33%;
 	}
 
+	.catalog_gk.catalog-col-4 .catalog-col {
+		width: 33.33%;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -3452,6 +3464,14 @@ button.white-pill:hover {
 	}
 
 	.catalog_gk .catalog-col {
+		width: 50%;
+	}
+
+	.catalog_gk.catalog-col-4 .catalog-col {
+		width: 50%;
+	}
+
+	.catalog_gk.catalog-col-3 .catalog-col {
 		width: 50%;
 	}
 
