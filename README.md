@@ -18,3 +18,4 @@
 # http://postolenko.github.io/nn/button.html
 # http://postolenko.github.io/nn/requisites_popup.html
 # http://postolenko.github.io/nn/catalog_gk.html
+# http://postolenko.github.io/nn/filter.html

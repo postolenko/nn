@@ -1,6 +1,6 @@
 $(window).on("load",function(){
 
-	$(".scroll-box").mCustomScrollbar();
+	// $(".scroll-box").mCustomScrollbar();
 
 });
 

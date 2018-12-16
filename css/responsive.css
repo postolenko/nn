@@ -528,6 +528,32 @@
 
 	/*-- /Share New 2 --*/
 
+	/*-- Filter --*/
+
+	.dropdown-custom_3 .dropdown-toggle {
+		padding-top: 5px;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	.filter_ch span {
+	    font-size: 18px;
+	    line-height: 40px;
+	}
+
+	.range_col input {
+	    font-size: 18px;
+	    line-height: 39px;
+	    padding-top: 5px;
+	}
+
+	.range_col p {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	/*-- /Filter --*/
+
 	/*-- Popup Shares --*/
 
 	.shares_popup .h_wrapp .h3 {
@@ -839,6 +865,41 @@
 
 	/*-- /Share New 2 --*/
 
+	/*-- Filter --*/
+
+	.filter_wrapp .inner_wrapp {
+	    margin: 0;
+	}
+
+	.filter_input {
+	    display: block;
+	    margin: 10px 0;
+	}
+
+	.filter_wrapp .filter_col {
+	    display: block;
+	    margin: 10px 0;
+	}
+
+	.filter_input .filtercol-1 {
+	    display: block;
+	}
+
+	.filter_input .filtercol-2 {
+	    display: block;
+	    padding-top: 5px;
+	}
+
+	.filtercol-2 .filter_ch {
+	    margin-top: 0;
+	}
+
+	.filter_col .btn_green {
+		margin: 20px 0;
+	}
+
+	/*-- /Filter --*/
+
 	/*-- Popup Shares --*/
 
 	.shares_popup .title_wrapp {
@@ -876,5 +937,25 @@
 	    font-size: 29px;
 	    line-height: 35px;
 	}
+
+	/*-- Filter --*/
+
+	.range_inputs_1 {
+		display: block;
+	}
+
+	.range_inputs_1 .range_col:nth-child(1) {
+		display: block;
+		max-width: 160px;
+	    margin: 5px 0 10px 0;
+	}
+
+	.range_inputs_1 .range_col:nth-child(2) {
+		display: block;
+		max-width: 160px;
+	    margin: 10px 0 0 0;
+	}
+
+	/*-- /Filter --*/
 
 }
