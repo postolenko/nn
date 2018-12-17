@@ -3620,11 +3620,13 @@ button.white-pill:hover {
 }
 
 .range_inputs_2 .range_col input {
-    width: 38px;
+    /*width: 38px;*/
+    width: 16px;
 }
 
 .range_inputs_3 .range_col input {
-    width: 38px;
+    /*width: 38px;*/
+    width: 24px;
 }
 
 .btn_green {
