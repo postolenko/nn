@@ -3401,7 +3401,7 @@ button.white-pill:hover {
 .filter_input {
     display: inline-table;
     vertical-align: top;
-    margin: 9px 7px;
+    margin: 10px 7px;
 }
 
 .filter_input p {
@@ -3425,7 +3425,7 @@ button.white-pill:hover {
 .filter_wrapp .filter_col {
     display: inline-block;
     vertical-align: top;
-    margin: 9px 10px;
+    margin: 10px 10px;
 }
 
 .filter_input .dropdown {
@@ -3640,7 +3640,6 @@ button.white-pill:hover {
 }
 
 .dropdown-custom_3 .bx-filter-select-popup {
-    /*width: 287px !important;*/
     padding: 5px 0;
     background: #777777;
     -webkit-border-radius: 3px;
@@ -3713,6 +3712,103 @@ button.white-pill:hover {
 }
 
 /*-- /Filter --*/
+
+/*-- Filter 2 --*/
+
+.filter_wrapp_2 {
+	max-width: 1006px;
+	padding: 25px 5px 0 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: rgb(241, 241, 241);
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+}
+
+.filter_wrapp_2 .left {
+	width: 33.33%;
+	padding: 10px 12px 0 12px;
+}
+
+.filter_wrapp_2 .right {
+	width: 33.33%;
+	padding: 10px 12px 10px 12px;
+}
+
+.filter_wrapp_2 .bx-filter-select-container {
+	margin: 10px 0;
+}
+
+.filter_wrapp_2 .h3 {
+	margin-bottom: 29px;
+	font-size: 30px;
+	line-height: 32px;
+	color: #009440;
+}
+
+.filters_box {
+	margin: 11px 0;
+}
+
+.filters_box .h6 {
+	margin-bottom: 17px;
+}
+
+.filters_box_1 .h6 {
+	margin-bottom: 18px;
+}
+
+.filter_checkboxes {
+	/*margin: 17px -2px 15px -2px;*/
+	margin: 18px -2px 16px -2px;
+}
+
+.filter_checkboxes_2 .filter_ch {
+	width: 49%;
+}
+
+.filter_checkboxes .filter_ch label {
+    display: block;
+}
+
+.filter_checkboxes_3 .filter_ch {
+	width: 32.33%;
+}
+
+.filters_box .range_inputs {
+	font-size: 0;
+	line-height: 0;
+}
+
+.filters_box .range_col {
+	width: calc( 50% - 4px);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.filter_submit {
+	padding-top: 53px;
+}
+
+/*.filter_submit .btn_green {
+    width: 100%;
+}*/
+
+/*-- /Filter 2 --*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1024px) {
 
