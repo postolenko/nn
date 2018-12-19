@@ -1012,14 +1012,14 @@
 	.filters_box .range_inputs .range_col:nth-child(1) {
 		display: inline-table;
 		width: 47%;
-		max-width: 160px;
+		max-width: auto;
 	    margin: 5px 1% 0 5px;
 	}
 
 	.filters_box .range_inputs .range_col:nth-child(2) {
 		display: inline-table;
 		width: 47%;
-		/*max-width: 160px;*/
+		max-width: auto;
 	    margin: 5px 1% 5px 5px;
 	}
 
