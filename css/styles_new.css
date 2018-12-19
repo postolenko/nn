@@ -3584,7 +3584,7 @@ button.white-pill:hover {
 .range_col .inner_col:nth-child(3) {
     width: 20px;
     padding-top: 11px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .range_col p {
@@ -3785,6 +3785,12 @@ button.white-pill:hover {
 	width: calc( 50% - 4px);
     margin-top: 4px;
     margin-bottom: 4px;
+}
+
+.filters_box .range_col input {
+	max-width: 90px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .filter_submit {
