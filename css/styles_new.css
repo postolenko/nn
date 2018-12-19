@@ -3777,6 +3777,7 @@ button.white-pill:hover {
 }
 
 .filters_box .range_inputs {
+	display: block;
 	font-size: 0;
 	line-height: 0;
 }
