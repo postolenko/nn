@@ -3761,7 +3761,6 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes {
-	/*margin: 17px -2px 15px -2px;*/
 	margin: 18px -2px 16px -2px;
 }
 
@@ -3791,10 +3790,6 @@ button.white-pill:hover {
 .filter_submit {
 	padding-top: 53px;
 }
-
-/*.filter_submit .btn_green {
-    width: 100%;
-}*/
 
 /*-- /Filter 2 --*/
 
