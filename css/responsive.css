@@ -720,11 +720,13 @@
 	.filter_wrapp_2 .left {
 	    width: 100%;
 	    float: none;
+	    padding: 10px 7px 10px 7px;
 	}
 
 	.filter_wrapp_2 .right {
 	    width: 100%;
 	    float: none;
+	    padding: 10px 7px 10px 7px;
 	}
 
 	.filter_submit {
@@ -1002,6 +1004,20 @@
 		width: 100%;
 		max-width: 160px;
 	    margin: 10px 0 0 0;
+	}
+
+	.filters_box .range_inputs_1 .range_col:nth-child(1) {
+		display: inline-table;
+		width: calc( 50% - 5px);
+		max-width: 160px;
+	    margin: 5px 5px 0 5px;
+	}
+
+	.filters_box .range_inputs_1 .range_col:nth-child(2) {
+		display: inline-table;
+		width: calc( 50% - 5px);
+		max-width: 160px;
+	    margin: 5px 0 5px 5px;
 	}
 
 	/*-- /Filter --*/
