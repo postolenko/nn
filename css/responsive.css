@@ -990,34 +990,41 @@
 
 	.range_inputs_1 {
 		display: block;
+		margin: 0 -2px;
 	}
 
 	.range_inputs_1 .range_col:nth-child(1) {
-		display: table;
+		display: inline-table;
+		vertical-align: top;
 		width: 100%;
 		max-width: 160px;
 	    margin: 5px 0 10px 0;
 	}
 
 	.range_inputs_1 .range_col:nth-child(2) {
-		display: table;
+		display: inline-table;
+		vertical-align: top;
 		width: 100%;
 		max-width: 160px;
 	    margin: 10px 0 0 0;
 	}
 
-	.filters_box .range_inputs_1 .range_col:nth-child(1) {
+	.filters_box .range_inputs .range_col:nth-child(1) {
 		display: inline-table;
-		width: calc( 50% - 5px);
+		width: 47%;
 		max-width: 160px;
-	    margin: 5px 5px 0 5px;
+	    margin: 5px 1% 0 5px;
 	}
 
-	.filters_box .range_inputs_1 .range_col:nth-child(2) {
+	.filters_box .range_inputs .range_col:nth-child(2) {
 		display: inline-table;
-		width: calc( 50% - 5px);
+		width: 47%;
 		max-width: 160px;
-	    margin: 5px 0 5px 5px;
+	    margin: 5px 1% 5px 5px;
+	}
+
+	.filters_box .range_col input {
+	    width: 100%;
 	}
 
 	/*-- /Filter --*/
