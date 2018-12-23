@@ -3761,7 +3761,7 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes {
-	margin: 18px -1% 16px -1%;
+	margin: 18px -3px 16px -3px;
 }
 
 .filter_checkboxes_2 .filter_ch {
@@ -3778,13 +3778,14 @@ button.white-pill:hover {
 
 .filters_box .range_inputs {
 	display: block;
+	margin-bottom: 15px;
 	font-size: 0;
 	line-height: 0;
 }
 
 .filters_box .range_col {
 	width: calc( 50% - 4px);
-    margin-top: 4px;
+    margin-top: 3px;
     margin-bottom: 4px;
 }
 
@@ -3795,7 +3796,7 @@ button.white-pill:hover {
 }
 
 .filter_submit {
-	padding-top: 53px;
+	padding-top: 39px;
 }
 
 /*-- /Filter 2 --*/

@@ -187,18 +187,29 @@
 	.filter_wrapp_2 .right {
 	    width: 100%;
 	    float: left;
+	    padding-top: 0;
 	}
 
-	.filter_wrapp_2 .right .filters_box {
+	.filter_wrapp_2 .right .filters_box:nth-child(1) {
 		width: 50%;
 		float: left;
-		padding: 0 7px;
+		margin-top: 0;
+		padding: 0 12px 0 7px;
 	}
 
-	.filter_wrapp_2 .right .filters_box {
+	.filter_wrapp_2 .right .filters_box:nth-child(2) {
 		width: 50%;
 		float: left;
-		padding: 0 7px;
+		margin-top: 0;
+		padding: 0 7px 0 12px;
+	}
+
+	.filter_wrapp_2 .left .filters_box:last-child {
+	    margin-bottom: 0;
+	}
+
+	.filter_submit {
+	    padding-top: 35px;
 	}
 
 	/*-- /Filter 2 --*/
@@ -615,15 +626,9 @@
 	/*-- Filter 2 --*/
 
 	.filter_wrapp_2 .right .filters_box {
-		width: 100%;
-		float: none;
-		padding: 0;
-	}
-
-	.filter_wrapp_2 .right .filters_box {
-		width: 100%;
-		float: none;
-		padding: 0;
+		width: 100% !important;
+		float: none !important;
+		padding: 0 !important;
 	}
 
 	/*-- /Filter 2 --*/
@@ -756,7 +761,7 @@
 	.filter_wrapp_2 .right {
 	    width: 100%;
 	    float: none;
-	    padding: 10px 7px 10px 7px;
+	    padding: 0 7px 10px 7px;
 	}
 
 	.filter_submit {
