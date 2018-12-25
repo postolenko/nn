@@ -46,7 +46,7 @@
 }
 
 .filter_checkboxes {
-    margin: 18px -1% 16px -1%;
+    margin: 18px -3px 16px -3px;
 }
 
 .filter_checkboxes_2 .filter_ch {
@@ -63,13 +63,14 @@
 
 .filters_box .range_inputs {
     display: block;
+    margin-bottom: 15px;
     font-size: 0;
     line-height: 0;
 }
 
 .filters_box .range_col {
     width: calc( 50% - 4px);
-    margin-top: 4px;
+    margin-top: 3px;
     margin-bottom: 4px;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .filter_submit {
-    padding-top: 53px;
+    padding-top: 39px;
 }
 
 /*-- /Filter 2 --*/
@@ -104,14 +105,14 @@
         width: 50%;
         float: left;
         margin-top: 0;
-        padding: 0 12px 0 7px;
+        padding: 0 12px 0 0;
     }
 
     .filter_wrapp_2 .right .filters_box:nth-child(2) {
         width: 50%;
         float: left;
         margin-top: 0;
-        padding: 0 7px 0 12px;
+        padding: 0 0 0 12px;
     }
 
     .filter_wrapp_2 .left .filters_box:last-child {
@@ -175,7 +176,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-
+    
     /*-- Filter 2 --*/
 
     .filter_wrapp_2 .right {

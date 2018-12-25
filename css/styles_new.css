@@ -3799,6 +3799,81 @@ button.white-pill:hover {
 	padding-top: 39px;
 }
 
+.checkbox {
+    position: relative;
+}
+
+.checkbox input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.checkbox label {
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-family: "Fira Sans Condensed Light";
+    font-size: 16px;
+    line-height: 23px;
+    color: #010101;
+}
+
+.checkbox span:before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    border: 1px solid #009440;
+}
+
+.checkbox span:after {
+    display: none;
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 9px;
+    left: 3px;
+    background-color: #009440;
+}
+
+.checkbox input:checked + span:after {
+    display: block;
+}
+
+.desc_novisible {
+	display: none;
+}
+
+.append_filters {
+
+}
+
+.append_filters .filters_box:nth-child(1) {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0 12px 0 12px;
+}
+
+.append_filters .filters_box:nth-child(2) {
+	width: 50%;
+	float: right;
+	margin: 0;
+	padding: 0 12px 0 12px;
+}
+
+.filters_box .checkbox {
+	margin-top: 47px;
+}
+
 /*-- /Filter 2 --*/
 
 
