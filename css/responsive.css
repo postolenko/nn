@@ -647,16 +647,6 @@
 
 	/*-- Filter 2 --*/
 
-	/*.filter_wrapp_2 .right .filters_box {
-		width: 100% !important;
-		float: none !important;
-		padding: 0 !important;
-	}*/
-
-	/*-- /Filter 2 --*/
-
-	/*-- Filter 2 --*/
-
 	.filter_wrapp_2 {
 	    padding: 10px 0 0 0;
 	}
@@ -687,6 +677,10 @@
 	    padding-top: 18px;
 	}
 
+	.append_filters {
+		float: none;
+	}
+
 	.append_filters .filters_box:nth-child(1) {
 	    width: 100%;
 	    float: none;
@@ -705,6 +699,10 @@
 
 	.filter_wrapp_2 .left {
 	    padding: 1px 7px;
+	}
+
+	.submit_append {
+		float: none;
 	}
 
 	/*-- /Filter 2 --*/

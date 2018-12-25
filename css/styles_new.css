@@ -3853,7 +3853,8 @@ button.white-pill:hover {
 }
 
 .append_filters {
-
+	width: 100%;
+	float: left;
 }
 
 .append_filters .filters_box:nth-child(1) {
@@ -3872,6 +3873,11 @@ button.white-pill:hover {
 
 .filters_box .checkbox {
 	margin-top: 47px;
+}
+
+.submit_append {
+	width: 100%;
+	float: left;
 }
 
 /*-- /Filter 2 --*/
