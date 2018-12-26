@@ -3748,6 +3748,13 @@ button.white-pill:hover {
 	color: #009440;
 }
 
+.filter_wrapp_2 .h3_resp {
+	display: none;
+	margin-top: 3px;
+	margin-bottom: 6px;
+	padding: 0 12px;
+}
+
 .filters_box {
 	margin: 11px 0;
 }
@@ -3853,11 +3860,10 @@ button.white-pill:hover {
 }
 
 .append_filters {
-	width: 100%;
-	float: left;
+	margin-top: 21px;
 }
 
-.append_filters .filters_box:nth-child(1) {
+/*.append_filters .filters_box:nth-child(1) {
 	width: 50%;
 	float: left;
 	margin: 0;
@@ -3869,10 +3875,10 @@ button.white-pill:hover {
 	float: right;
 	margin: 0;
 	padding: 0 12px 0 12px;
-}
+}*/
 
 .filters_box .checkbox {
-	margin-top: 47px;
+    margin-top: 15px;
 }
 
 .submit_append {

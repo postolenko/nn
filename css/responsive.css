@@ -183,6 +183,14 @@
 		display: none;
 	}
 
+	.filter_wrapp_2 .left .h3 {
+		display: none;
+	}
+
+	.filter_wrapp_2 .h3_resp {
+		display: block;
+	}
+
 	.filter_wrapp_2 {
 	    padding-bottom: 7px;
 	}
@@ -205,10 +213,6 @@
 
 	.filter_wrapp_2 .left .filters_box:last-child {
 	    margin-bottom: 0;
-	}
-
-	.append_filters {
-		margin-top: 19px;
 	}
 
 	.filters_box.resp_novisible {
@@ -651,16 +655,14 @@
 	    padding: 10px 0 0 0;
 	}
 
-	.filter_wrapp_2 .h3 {
-	    margin-bottom: 25px;
-	    font-size: 25px;
-	    line-height: 27px;
+	.filter_wrapp_2 .h3_resp {
+	    padding: 10px 7px 0 7px;
 	}
 
 	.filter_wrapp_2 .left {
 	    width: 100%;
 	    float: none;
-	    padding: 10px 7px 10px 7px;
+	    padding: 10px 7px;
 	}
 
 	.filter_wrapp_2 .right {
@@ -703,6 +705,11 @@
 
 	.submit_append {
 		float: none;
+		padding: 20px 0 10px 0;
+	}
+
+	.filter_submit {
+	    padding: 0 7px;
 	}
 
 	/*-- /Filter 2 --*/
@@ -1111,6 +1118,10 @@
 	/*-- /Filter --*/
 
 	/*-- Filter 2 --*/
+
+	.filter_wrapp_2 .h3_resp {
+		text-align: center;
+	}
 
 	.filter_wrapp_2 .right {
 	    padding-top: 0;
