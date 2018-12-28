@@ -3560,11 +3560,11 @@ button.white-pill:hover {
 }
 
 .range_inputs .range_col:nth-child(1) {
-    margin-right: 4px;
+    margin-right: 2px;
 }
 
 .range_inputs .range_col:nth-child(2) {
-    margin-left: 4px;
+    margin-left: 2px;
 }
 
 .range_col .inner_col {
@@ -3768,7 +3768,7 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes {
-	margin: 18px 0 16px 0;
+	margin: 18px -2px 16px -2px;
 	font-size: 0;
 	line-height: 0;
 }

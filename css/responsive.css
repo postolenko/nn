@@ -1076,7 +1076,7 @@
 
 	.range_inputs_1 {
 		display: block;
-		margin: 0 -3px;
+		margin: 0;
 		font-size: 0;
 		line-height: 0;
 	}
@@ -1128,7 +1128,7 @@
 	}
 
 	.filter_checkboxes_3 .filter_ch {
-	    width: 49%;
+	    width: 50%;
 	}
 
 	/*-- /Filter 2 --*/

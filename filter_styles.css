@@ -2,7 +2,7 @@
 
 .filter_wrapp_2 {
     max-width: 1006px;
-    padding: 25px 5px 0 5px;
+    padding: 25px 8px 0 8px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -53,11 +53,13 @@
 }
 
 .filter_checkboxes {
-    margin: 18px -3px 16px -3px;
+    margin: 18px 0 16px 0;
+    font-size: 0;
+    line-height: 0;
 }
 
 .filter_checkboxes_2 .filter_ch {
-    width: 49%;
+    width: 50%;
 }
 
 .filter_checkboxes .filter_ch label {
@@ -65,7 +67,7 @@
 }
 
 .filter_checkboxes_3 .filter_ch {
-    width: 32.33%;
+    width: 33.33%;
 }
 
 .filters_box .range_inputs {
@@ -161,7 +163,6 @@
 
 @media only screen and (max-width: 1060px) {
 
-
     /*-- Filter 2 --*/
 
     .resp_novisible {
@@ -177,7 +178,7 @@
     }
 
     .filter_wrapp_2 {
-        padding-bottom: 7px;
+        padding-bottom: 8px;
     }
 
     .filter_wrapp_2 .left {
@@ -226,6 +227,7 @@
     /*-- /Filter 2 --*/
 
 }
+
 
 @media only screen and (max-width: 710px) {
 
@@ -296,42 +298,7 @@
 
 }
 
-@media only screen and (max-width: 640px) {
-
-    /*-- Filter 2 --*/
-
-    .filter_wrapp_2 {
-        padding: 10px 0 0 0;
-    }
-
-    .filter_wrapp_2 .h3 {
-        margin-bottom: 25px;
-        font-size: 25px;
-        line-height: 27px;
-    }
-
-    .filter_wrapp_2 .left {
-        width: 100%;
-        float: none;
-        padding: 10px 7px 10px 7px;
-    }
-
-    .filter_wrapp_2 .right {
-        width: 100%;
-        float: none;
-        padding: 0 7px 10px 7px;
-    }
-
-    .filter_submit {
-        padding-top: 33px;
-    }
-
-    /*-- /Filter 2 --*/
-
-}
-
 @media only screen and (max-width: 400px) {
-    
     /*-- Filter 2 --*/
 
     .filter_wrapp_2 .h3_resp {
