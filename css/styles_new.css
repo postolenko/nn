@@ -3717,7 +3717,7 @@ button.white-pill:hover {
 
 .filter_wrapp_2 {
 	max-width: 1006px;
-	padding: 25px 5px 0 5px;
+	padding: 25px 8px 0 8px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -3768,11 +3768,13 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes {
-	margin: 18px -3px 16px -3px;
+	margin: 18px 0 16px 0;
+	font-size: 0;
+	line-height: 0;
 }
 
 .filter_checkboxes_2 .filter_ch {
-	width: 49%;
+	width: 50%;
 }
 
 .filter_checkboxes .filter_ch label {
@@ -3780,7 +3782,7 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes_3 .filter_ch {
-	width: 32.33%;
+	width: 33.33%;
 }
 
 .filters_box .range_inputs {
@@ -3862,20 +3864,6 @@ button.white-pill:hover {
 .append_filters {
 	margin-top: 21px;
 }
-
-/*.append_filters .filters_box:nth-child(1) {
-	width: 50%;
-	float: left;
-	margin: 0;
-	padding: 0 12px 0 12px;
-}
-
-.append_filters .filters_box:nth-child(2) {
-	width: 50%;
-	float: right;
-	margin: 0;
-	padding: 0 12px 0 12px;
-}*/
 
 .filters_box .checkbox {
     margin-top: 15px;

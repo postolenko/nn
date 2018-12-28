@@ -33,6 +33,13 @@
     color: #009440;
 }
 
+.filter_wrapp_2 .h3_resp {
+    display: none;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    padding: 0 12px;
+}
+
 .filters_box {
     margin: 11px 0;
 }
@@ -84,12 +91,94 @@
     padding-top: 39px;
 }
 
+.checkbox {
+    position: relative;
+}
+
+.checkbox input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.checkbox label {
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-family: "Fira Sans Condensed Light";
+    font-size: 16px;
+    line-height: 23px;
+    color: #010101;
+}
+
+.checkbox span:before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    border: 1px solid #009440;
+}
+
+.checkbox span:after {
+    display: none;
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 9px;
+    left: 3px;
+    background-color: #009440;
+}
+
+.checkbox input:checked + span:after {
+    display: block;
+}
+
+.desc_novisible {
+    display: none;
+}
+
+.append_filters {
+    margin-top: 21px;
+}
+
+.filters_box .checkbox {
+    margin-top: 15px;
+}
+
+.submit_append {
+    width: 100%;
+    float: left;
+}
+
 /*-- /Filter 2 --*/
 
 @media only screen and (max-width: 1060px) {
 
 
     /*-- Filter 2 --*/
+
+    .resp_novisible {
+        display: none;
+    }
+
+    .filter_wrapp_2 .left .h3 {
+        display: none;
+    }
+
+    .filter_wrapp_2 .h3_resp {
+        display: block;
+    }
+
+    .filter_wrapp_2 {
+        padding-bottom: 7px;
+    }
 
     .filter_wrapp_2 .left {
         width: 50%;
@@ -101,26 +190,37 @@
         padding-top: 0;
     }
 
-    .filter_wrapp_2 .right .filters_box:nth-child(1) {
-        width: 50%;
-        float: left;
-        margin-top: 0;
-        padding: 0 12px 0 0;
-    }
-
     .filter_wrapp_2 .right .filters_box:nth-child(2) {
-        width: 50%;
-        float: left;
+        width: 100%;
         margin-top: 0;
-        padding: 0 0 0 12px;
+        padding: 0;
     }
 
     .filter_wrapp_2 .left .filters_box:last-child {
         margin-bottom: 0;
     }
 
+    .filters_box.resp_novisible {
+        display: none;
+    }
+
+    .range_inputs_box {
+        margin-top: 17px;
+    }
+
     .filter_submit {
-        padding-top: 35px;
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        padding: 0 12px;
+    }
+
+    .filter_submit .btn_green {
+        width: 100%;
+    }
+
+    .desc_novisible {
+        display: block;
     }
 
     /*-- /Filter 2 --*/
@@ -131,10 +231,65 @@
 
     /*-- Filter 2 --*/
 
-    .filter_wrapp_2 .right .filters_box {
-        width: 100% !important;
-        float: none !important;
-        padding: 0 !important;
+    .filter_wrapp_2 {
+        padding: 10px 0 0 0;
+    }
+
+    .filter_wrapp_2 .h3_resp {
+        padding: 10px 7px 0 7px;
+    }
+
+    .filter_wrapp_2 .left {
+        width: 100%;
+        float: none;
+        padding: 10px 7px;
+    }
+
+    .filter_wrapp_2 .right {
+        width: 100%;
+        float: none;
+        padding: 0 7px 10px 7px;
+    }
+
+    .filters_box .range_inputs {
+        margin-bottom: 0;
+    }
+
+    .filter_submit {
+        padding-top: 18px;
+    }
+
+    .append_filters {
+        float: none;
+    }
+
+    .append_filters .filters_box:nth-child(1) {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .append_filters .filters_box:nth-child(2) {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .filters_box .checkbox {
+        margin-top: 21px;
+    }
+
+    .filter_wrapp_2 .left {
+        padding: 1px 7px;
+    }
+
+    .submit_append {
+        float: none;
+        padding: 20px 0 10px 0;
+    }
+
+    .filter_submit {
+        padding: 0 7px;
     }
 
     /*-- /Filter 2 --*/
@@ -178,6 +333,10 @@
 @media only screen and (max-width: 400px) {
     
     /*-- Filter 2 --*/
+
+    .filter_wrapp_2 .h3_resp {
+        text-align: center;
+    }
 
     .filter_wrapp_2 .right {
         padding-top: 0;
