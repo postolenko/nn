@@ -3560,11 +3560,11 @@ button.white-pill:hover {
 }
 
 .range_inputs .range_col:nth-child(1) {
-    margin-right: 2px;
+    margin-right: 3px;
 }
 
 .range_inputs .range_col:nth-child(2) {
-    margin-left: 2px;
+    margin-left: 3px;
 }
 
 .range_col .inner_col {
@@ -3793,7 +3793,7 @@ button.white-pill:hover {
 }
 
 .filters_box .range_col {
-	width: calc( 50% - 4px);
+	width: calc( 50% - 3px);
     margin-top: 3px;
     margin-bottom: 4px;
 }

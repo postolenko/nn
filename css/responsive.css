@@ -1098,16 +1098,16 @@
 
 	.filters_box .range_inputs .range_col:nth-child(1) {
 		display: inline-table;
-		width: calc(50% - 5px);
+		/*width: calc(50% - 5px);*/
 		max-width: auto;
-	    margin: 5px 5px 5px 0;
+	    margin: 5px 3px 5px 0;
 	}
 
 	.filters_box .range_inputs .range_col:nth-child(2) {
 		display: inline-table;
-		width: calc(50% - 6px);
+		/*width: calc(50% - 5px);*/
 		max-width: auto;
-	    margin: 5px 0 5px 5px;
+	    margin: 5px 0 5px 3px;
 	}
 
 	.filters_box .range_col input {
