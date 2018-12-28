@@ -53,7 +53,7 @@
 }
 
 .filter_checkboxes {
-    margin: 18px 0 16px 0;
+    margin: 18px -2px 16px -2px;
     font-size: 0;
     line-height: 0;
 }
@@ -228,7 +228,6 @@
 
 }
 
-
 @media only screen and (max-width: 710px) {
 
     /*-- Filter 2 --*/
@@ -310,7 +309,7 @@
     }
 
     .filter_checkboxes_3 .filter_ch {
-        width: 49%;
+        width: 50%;
     }
 
     /*-- /Filter 2 --*/
