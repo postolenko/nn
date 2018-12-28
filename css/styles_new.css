@@ -3489,7 +3489,7 @@ button.white-pill:hover {
 .filter_ch label {
     cursor: pointer;
     position: relative;
-    margin: 2px 2px;
+    margin: 5px 5px;
     min-width: 40px;
     text-align: center;
 }
@@ -3560,11 +3560,11 @@ button.white-pill:hover {
 }
 
 .range_inputs .range_col:nth-child(1) {
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .range_inputs .range_col:nth-child(2) {
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 .range_col .inner_col {
@@ -3742,7 +3742,7 @@ button.white-pill:hover {
 }
 
 .filter_wrapp_2 .h3 {
-	margin-bottom: 29px;
+	margin-bottom: 28px;
 	font-size: 30px;
 	line-height: 32px;
 	color: #009440;
@@ -3751,7 +3751,7 @@ button.white-pill:hover {
 .filter_wrapp_2 .h3_resp {
 	display: none;
 	margin-top: 3px;
-	margin-bottom: 6px;
+	margin-bottom: 8px;
 	padding: 0 12px;
 }
 
@@ -3760,7 +3760,7 @@ button.white-pill:hover {
 }
 
 .filters_box .h6 {
-	margin-bottom: 17px;
+	margin-bottom: 15px;
 }
 
 .filters_box_1 .h6 {
@@ -3768,7 +3768,7 @@ button.white-pill:hover {
 }
 
 .filter_checkboxes {
-	margin: 18px -2px 16px -2px;
+	margin: 15px -5px 12px -5px;
 	font-size: 0;
 	line-height: 0;
 }
@@ -3787,13 +3787,14 @@ button.white-pill:hover {
 
 .filters_box .range_inputs {
 	display: block;
+	margin-top: 17px;
 	margin-bottom: 15px;
 	font-size: 0;
 	line-height: 0;
 }
 
 .filters_box .range_col {
-	width: calc( 50% - 3px);
+	width: calc( 50% - 5px);
     margin-top: 3px;
     margin-bottom: 4px;
 }
@@ -3805,7 +3806,7 @@ button.white-pill:hover {
 }
 
 .filter_submit {
-	padding-top: 39px;
+	padding-top: 40px;
 }
 
 .checkbox {
@@ -3872,6 +3873,10 @@ button.white-pill:hover {
 .submit_append {
 	width: 100%;
 	float: left;
+}
+
+.filters_box_2 {
+	margin-top: 14px;
 }
 
 /*-- /Filter 2 --*/

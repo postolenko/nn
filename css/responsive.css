@@ -218,8 +218,29 @@
 		display: none;
 	}
 
+	.filters_box_1 .h6 {
+	    margin-bottom: 20px;
+	}
+
+	.filter_wrapp_2 .bx-filter-select-container {
+	    margin: 10px 0;
+	}
+
+	.filter_checkboxes {
+	    margin: 15px -5px 14px -5px;
+	}
+
+	.filters_box .range_inputs {
+	    margin-top: 18px;
+	    margin-bottom: 14px;
+	}
+
 	.range_inputs_box {
-		margin-top: 17px;
+		margin-top: 14px;
+	}
+
+	.filters_box .checkbox {
+	    margin-top: 14px;
 	}
 
 	.filter_submit {
@@ -235,6 +256,10 @@
 
 	.desc_novisible {
 		display: block;
+	}
+
+	.filters_box_2 {
+	    margin-top: 11px;
 	}
 
 	/*-- /Filter 2 --*/
@@ -670,6 +695,10 @@
 	    padding: 0 7px 10px 7px;
 	}
 
+	.filters_box_2 {
+	    margin-top: 0;
+	}
+
 	.filters_box .range_inputs {
 	    margin-bottom: 0;
 	}
@@ -1098,16 +1127,16 @@
 
 	.filters_box .range_inputs .range_col:nth-child(1) {
 		display: inline-table;
-		/*width: calc(50% - 5px);*/
+		width: calc(50% - 5px);
 		max-width: auto;
-	    margin: 5px 3px 5px 0;
+	    margin: 5px 5px 5px 0;
 	}
 
 	.filters_box .range_inputs .range_col:nth-child(2) {
 		display: inline-table;
-		/*width: calc(50% - 5px);*/
+		width: calc(50% - 5px);
 		max-width: auto;
-	    margin: 5px 0 5px 3px;
+	    margin: 5px 0 5px 5px;
 	}
 
 	.filters_box .range_col input {
