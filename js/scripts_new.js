@@ -14,15 +14,11 @@ $(window).on("load",function(){
 
 	// $(".scroll-box").mCustomScrollbar();
 
-	getAdaptivePositionElements();
-
 });
 
 $(window).resize(function() {
 
 	bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-
-	getAdaptivePositionElements();
 
 });
 
@@ -189,21 +185,3 @@ $(document).ready(function() {
 	}
 
 });
-
-function getAdaptivePositionElements() {
-
-	var screenParam;
-	var indexElem;
-
-    $(".append-elem").each(function() {
-        screenParam = parseInt( $(this).attr("data-min-screen") );
-        indexElem = $(this).attr("data-append-desktop-elem");
-        if( bodyWidth <= screenParam ) {
-            $("[data-append-elem = '"+ indexElem +"']").append($(this).children());
-        }
-         if( bodyWidth > screenParam ) {
-            $("[data-append-desktop-elem = '"+ indexElem +"']").append($("[data-append-elem = '"+ indexElem +"']").children());
-        }
-    });
-
-}
