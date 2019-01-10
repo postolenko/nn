@@ -182,84 +182,35 @@
 		display: none;
 	}
 
-	.filter_wrapp_2 .left .h3 {
-		display: none;
-	}
-
-	.filter_wrapp_2 .h3_resp {
-		display: block;
-	}
-
-	.filter_wrapp_2 {
-		padding-bottom: 8px;
-	}
-
-	.filter_wrapp_2 .left {
-	    width: 50%;
-	}
-
-	.filter_wrapp_2 .right {
-	    width: 100%;
-	    float: left;
-	    padding-top: 0;
-	}
-
-	.filter_wrapp_2 .right .filters_box:nth-child(2) {
-		width: 100%;
-		margin-top: 0;
-		padding: 0;
-	}
-
-	.filter_wrapp_2 .left .filters_box:last-child {
-	    margin-bottom: 0;
-	}
-
-	.filters_box.resp_novisible {
-		display: none;
-	}
-
-	.filters_box_1 .h6 {
-	    margin-bottom: 20px;
-	}
-
-	.filter_wrapp_2 .bx-filter-select-container {
-	    margin: 10px 0;
-	}
-
-	.filter_checkboxes {
-	    margin: 15px -5px 14px -5px;
-	}
-
-	.filters_box .range_inputs {
-	    margin-top: 18px;
-	    margin-bottom: 14px;
-	}
-
-	.range_inputs_box {
-		margin-top: 14px;
-	}
-
-	.filters_box .checkbox {
-	    margin-top: 14px;
-	}
-
-	.filter_submit {
-		width: 100%;
-		float: none;
-		margin-top: 0;
-	    padding: 0 12px;
-	}
-
-	.filter_submit .btn_green {
-		width: 100%;
-	}
-
 	.desc_novisible {
 		display: block;
 	}
 
-	.filters_box_2 {
-	    margin-top: 11px;
+	.filter_wrapp_2 {
+	    padding-bottom: 31px;
+	}
+
+	.filter_wrapp_2 .inner_wrapp > .left {
+		width: 50%;
+	}
+
+	.filter_wrapp_2 .inner_wrapp > .right {
+		width: 50%;
+	}
+
+	.two_cols_filter > .left {
+		width: 100%;
+		float: none;
+		padding-right: 6px;
+	}
+
+	.two_cols_filter > .right {
+		width: 100%;
+		float: none;
+	}
+
+	.filter_2_footer {
+		display: table;
 	}
 
 	/*-- /Filter 2 --*/
@@ -639,10 +590,41 @@
 
 	.range_col p {
 	    font-size: 18px;
-	    line-height: 20px;
+	    line-height: 21px;
 	}
 
 	/*-- /Filter --*/
+
+	/*-- Filter 2 --*/
+
+	.filter_wrapp_2 {
+	    padding-bottom: 19px;
+	}
+
+	.filter_wrapp_2 .filter_ch span {
+	    font-size: 16px;
+	    line-height: 40px;
+	}
+
+	.filter_wrapp_2 .dropdown-custom_3 .dropdown-toggle {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	.filter_wrapp_2 .range_col input {
+	    font-size: 16px;
+	    line-height: 38px;
+	}
+
+	.filter_wrapp_2 .range_col p {
+	    font-size: 16px;
+	}
+
+	.filters_box .range_inputs {
+	    margin-top: 14px;
+	}
+
+	/*-- /Filter 2 --*/
 
 	/*-- Popup Shares --*/
 
@@ -675,69 +657,32 @@
 
 	/*-- Filter 2 --*/
 
-	.filter_wrapp_2 {
-	    padding: 10px 0 0 0;
-	}
-
-	.filter_wrapp_2 .h3_resp {
-	    padding: 10px 7px 0 7px;
-	}
-
-	.filter_wrapp_2 .left {
-	    width: 100%;
-	    float: none;
-	    padding: 10px 7px;
-	}
-
-	.filter_wrapp_2 .right {
-	    width: 100%;
-	    float: none;
-	    padding: 0 7px 10px 7px;
-	}
-
-	.filters_box_2 {
-	    margin-top: 0;
-	}
-
-	.filters_box .range_inputs {
-	    margin-bottom: 0;
-	}
-
-	.filter_submit {
-	    padding-top: 18px;
-	}
-
-	.append_filters {
+	.filter_wrapp_2 .inner_wrapp > .left {
+		width: 100%;
 		float: none;
+		padding: 10px 0 0 0;
 	}
 
-	.append_filters .filters_box:nth-child(1) {
-	    width: 100%;
-	    float: none;
-	    margin: 0;
-	}
-
-	.append_filters .filters_box:nth-child(2) {
-	    width: 100%;
-	    float: none;
-	    margin: 0;
-	}
-
-	.filters_box .checkbox {
-	    margin-top: 21px;
-	}
-
-	.filter_wrapp_2 .left {
-	    padding: 1px 7px;
-	}
-
-	.submit_append {
+	.filter_wrapp_2 .inner_wrapp > .right {
+		width: 100%;
 		float: none;
-		padding: 20px 0 10px 0;
+		padding: 0;
 	}
 
-	.filter_submit {
-	    padding: 0 7px;
+	.filter_wrapp_2 .h3 {
+	    margin: 0 0 12px 0;
+	    font-size: 27px;
+	    line-height: 30px;
+	}
+
+	.two_cols_filter > .left {
+		padding-left: 0;
+	    padding-right: 0;
+	}
+
+	.two_cols_filter > .right {
+		padding-left: 0;
+	    padding-right: 0;
 	}
 
 	/*-- /Filter 2 --*/
@@ -848,6 +793,31 @@
 	}
 
 	/*-- /Developer --*/
+
+	/*-- Filter 2 --*/
+
+	.filter_2_footer {
+	    display: block;
+	    margin-top: 10px;
+	}
+
+	.filter_2_footer .col:nth-child(1) {
+		display: block;
+	    width: 100%;
+	    padding: 4px 0;
+	}
+
+	.filter_2_footer .col:nth-child(2) {
+		display: block;
+	    width: 100%;
+	    padding: 4px 0;
+	}
+
+	.filter_2_footer .filter_submit {
+	    padding-top: 0;
+	}
+
+	/*-- /Filter 2 --*/
 
 	/*-- Popup Shares --*/
 
@@ -1144,21 +1114,5 @@
 	}
 
 	/*-- /Filter --*/
-
-	/*-- Filter 2 --*/
-
-	.filter_wrapp_2 .h3_resp {
-		text-align: center;
-	}
-
-	.filter_wrapp_2 .right {
-	    padding-top: 0;
-	}
-
-	.filter_checkboxes_3 .filter_ch {
-	    width: 50%;
-	}
-
-	/*-- /Filter 2 --*/
 
 }
