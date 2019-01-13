@@ -3716,6 +3716,7 @@ button.white-pill:hover {
 /*-- Filter 2 --*/
 
 .filter_wrapp_2 {
+	position: relative;
 	max-width: 1006px;
 	padding: 33px 8px 21px 8px;
 	-webkit-border-radius: 4px;
@@ -3886,22 +3887,10 @@ button.white-pill:hover {
 }
 
 .filter_2_footer {
-	display: table;
-	width: 100%;
-}
-
-.filter_2_footer .col:nth-child(1) {
-	display: table-cell;
-	vertical-align: middle;
-	width: 50%;
-	padding: 4px 13px 0 12px;
-}
-
-.filter_2_footer .col:nth-child(2) {
-	display: table-cell;
-	vertical-align: middle;
-	width: 50%;
-	padding: 4px 12px 0 13px;
+	width: 33.33%;
+	position: absolute;
+	bottom: 36px;
+	right: 0;
 }
 
 .filter_2_footer .btn_green {
@@ -3909,11 +3898,7 @@ button.white-pill:hover {
 }
 
 .filter_2_footer .filters_box .checkbox {
-    margin-top: 12px;
-}
-
-.filter_2_footer {
-	display: none;
+	margin-top: 8px;
 }
 
 /*-- /Filter 2 --*/

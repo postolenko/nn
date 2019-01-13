@@ -211,6 +211,31 @@
 
 	.filter_2_footer {
 		display: table;
+		position: relative;
+		bottom: 0;
+	}
+
+	.filter_2_footer {
+		display: table;
+		width: 100%;
+	}
+
+	.filter_2_footer .col:nth-child(1) {
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%;
+		padding: 4px 13px 0 12px;
+	}
+
+	.filter_2_footer .col:nth-child(2) {
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%;
+		padding: 4px 12px 0 13px;
+	}
+
+	.filter_2_footer .filters_box .checkbox {
+	    margin-top: 12px;
 	}
 
 	/*-- /Filter 2 --*/
@@ -293,6 +318,15 @@
 
 	/*-- /Share --*/
 
+	/*-- Share New --*/
+
+	.sharethumb_2 .h_wrapp .h3 {
+	    font-size: 43px;
+	    line-height: 51px;
+	}
+	
+	/*-- /Share New --*/
+
 	/*-- Documents --*/
 
 	.thumbnails_3 {
@@ -325,19 +359,6 @@
 	}
 
 	/*-- /Flat Card --*/
-
-}
-
-@media only screen and (max-width: 960px) {
-
-	/*-- Share New --*/
-
-	.sharethumb_2 .h_wrapp .h3 {
-	    font-size: 43px;
-	    line-height: 51px;
-	}
-	
-	/*-- /Share New --*/
 
 }
 
@@ -685,6 +706,16 @@
 	    padding-right: 0;
 	}
 
+	.filter_2_footer .col:nth-child(1) {
+	    padding-left: 0;
+	    padding-right: 5px;
+	}
+
+	.filter_2_footer .col:nth-child(2) {
+	    padding-right: 0;
+	    padding-left: 5px;
+	}
+
 	/*-- /Filter 2 --*/
 
 }
@@ -798,7 +829,6 @@
 
 	.filter_2_footer {
 	    display: block;
-	    margin-top: 10px;
 	}
 
 	.filter_2_footer .col:nth-child(1) {
