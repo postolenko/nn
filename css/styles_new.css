@@ -3731,6 +3731,7 @@ button.white-pill:hover {
 .filter_wrapp_2 .inner_wrapp > .left {
 	width: 33.33%;
 	padding: 10px 13px 0 12px;
+	position: relative;
 }
 
 .filter_wrapp_2 .inner_wrapp > .right {
@@ -3740,7 +3741,7 @@ button.white-pill:hover {
 
 .two_cols_filter > .left {
 	width: 50%;
-	padding-top: 0;
+	padding-top: 88px;
 	padding-left: 12px;
 	padding-right: 13px;
 }
@@ -3750,6 +3751,14 @@ button.white-pill:hover {
 	padding-top: 0;
 	padding-left: 13px;
 	padding-right: 6px;
+}
+
+.object_wrapp {
+	width: 100%;
+	padding: 0 16px 0 13px;
+	position: absolute;
+	top: 10px;
+	left: 100%;
 }
 
 .filter_wrapp_2 .bx-filter-select-container {

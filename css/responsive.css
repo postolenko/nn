@@ -201,6 +201,7 @@
 	.two_cols_filter > .left {
 		width: 100%;
 		float: none;
+		padding-top: 0;
 		padding-right: 6px;
 	}
 
@@ -236,6 +237,13 @@
 
 	.filter_2_footer .filters_box .checkbox {
 	    margin-top: 12px;
+	}
+
+	.object_wrapp {
+	    padding: 0;
+	    position: relative;
+	    top: 0;
+	    left: 0;
 	}
 
 	/*-- /Filter 2 --*/
