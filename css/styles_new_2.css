@@ -864,10 +864,14 @@ dd.subway:before {
 }
 
 .h3_title {
-  padding-bottom: 54px;
+  padding-bottom: 59px;
 }
 
 .h3_2_title {
+  padding-bottom: 10px;
+}
+
+.h3_3_title {
   padding-bottom: 0;
 }
 
@@ -939,6 +943,14 @@ dd.subway:before {
   margin-bottom: 24px;
 }
 
+.info-box_white .form-consult {
+  padding: 35px 40px 41px 40px;
+}
+
+.info-box_white .form-consult .btn-consult {
+    padding-top: 13px;
+}
+
 .hr_2 {
   margin: 60px 0 27px 0;
 }
@@ -948,6 +960,10 @@ dd.subway:before {
 }
 
 @media (max-width: 1024px) {
+
+  .text-mortgage_2 {
+    margin-top: 15px;
+}
 
   .speak_2:before {
       display: none;
@@ -972,7 +988,7 @@ dd.subway:before {
 
 @media (max-width: 480px) {
 
-  .form-consult {
+  .info-box_white .form-consult {
     padding: 20px 15px;
   }
 
