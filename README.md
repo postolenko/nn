@@ -20,3 +20,4 @@
 # http://postolenko.github.io/nn/catalog_gk.html
 # http://postolenko.github.io/nn/filter.html
 # http://postolenko.github.io/nn/filter_2.html
+# http://postolenko.github.io/nn/sale_flat.html

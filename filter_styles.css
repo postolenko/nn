@@ -16,6 +16,7 @@
 .filter_wrapp_2 .inner_wrapp > .left {
     width: 33.33%;
     padding: 10px 13px 0 12px;
+    position: relative;
 }
 
 .filter_wrapp_2 .inner_wrapp > .right {
@@ -25,7 +26,7 @@
 
 .two_cols_filter > .left {
     width: 50%;
-    padding-top: 0;
+    padding-top: 88px;
     padding-left: 12px;
     padding-right: 13px;
 }
@@ -35,6 +36,14 @@
     padding-top: 0;
     padding-left: 13px;
     padding-right: 6px;
+}
+
+.object_wrapp {
+    width: 100%;
+    padding: 0 16px 0 13px;
+    position: absolute;
+    top: 10px;
+    left: 100%;
 }
 
 .filter_wrapp_2 .bx-filter-select-container {
@@ -188,6 +197,7 @@
 
 /*-- /Filter 2 --*/
 
+
 @media only screen and (max-width: 1060px) {
 
     /*-- Filter 2 --*/
@@ -215,6 +225,7 @@
     .two_cols_filter > .left {
         width: 100%;
         float: none;
+        padding-top: 0;
         padding-right: 6px;
     }
 
@@ -252,11 +263,19 @@
         margin-top: 12px;
     }
 
+    .object_wrapp {
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
     /*-- /Filter 2 --*/
 
 }
 
 @media only screen and (max-width: 767px) {
+
     /*-- Filter 2 --*/
 
     .filter_wrapp_2 {
@@ -337,7 +356,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-    
+
     /*-- Filter 2 --*/
 
     .filter_2_footer {
@@ -361,5 +380,5 @@
     }
 
     /*-- /Filter 2 --*/
-
+    
 }
