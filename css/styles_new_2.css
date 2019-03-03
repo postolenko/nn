@@ -14,10 +14,10 @@
   padding: 12px 50px;
 }
 .form-check-label > span {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "PTSansRegular", sans-serif;
 }
 .form-check-label > span.thin {
-  font-family: "Fira Sans Condensed Light", sans-serif;
+  font-family: "PTSansRegular", sans-serif;
 }
 table .form-check-label input + span {
   /*padding-left: 40px;*/
@@ -240,7 +240,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
 }
 .detail-form .form-check-label input + span {
   padding-left: 20px;
-  font-family: "Fira Sans Condensed Light", sans-serif;
+  font-family: "PTSansRegular", sans-serif;
   font-size: 14px;
 }
 .detail-form span a {
@@ -252,7 +252,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
   font-size: 24px;
 }
 .consult-area a {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "PTSansRegular", sans-serif;
   color: #f29100;
 }
 .binding table tr td {
@@ -511,7 +511,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
   border: 1px solid #c6c6c6;
 }
 .btn > .btn-text {
-  font: 20px 'Fira Sans Condensed Light';
+  font: 20px 'PTSansRegular';
   border-bottom: 1px dotted #009440;
 }
 .btn.btn-active {
@@ -519,7 +519,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
   box-shadow: 0 0 15px 0 rgba(27,43,84,0.30);
 }
 .btn-active > .btn-text {
-  font: 20px 'Fira Sans Condensed';
+  font: 20px 'PTSansRegular';
   border-bottom: none;
   color: #009440;
 }
@@ -744,11 +744,11 @@ dd.subway:before {
 }
 .block-btn .btn {
   margin-bottom: 1.25rem;
-  font: 14px "Fira Sans Condensed SemiBold", sans-serif;
+  font: 14px "PTSansBold", sans-serif;
 }
 .block-btn .btn .text-obj-btn {
   display: block;
-  font-family: "Fira Sans Condensed Light", sans-serif;
+  font-family: "PTSansRegular", sans-serif;
 }
 .block-btn .btn-small-pad {
   line-height: 1.2;
@@ -887,7 +887,7 @@ dd.subway:before {
 .green_list li {
   position: relative;
   padding: 5px 0 5px 22px;
-  font: 20px "Fira Sans Condensed Light", sans-serif;
+  font: 20px "PTSansRegular", sans-serif;
   line-height: 22px;
 }
 
@@ -919,7 +919,7 @@ dd.subway:before {
 .red_border_box p {
   margin-bottom: 0;
   padding: 5px 0;
-  font: 20px "Fira Sans Condensed Light", sans-serif;
+  font: 20px "PTSansRegular", sans-serif;
   line-height: 22px;
 }
 

@@ -112,6 +112,79 @@ $(document).ready(function() {
         });
     });
 
+// ------------------------------------------------------
+
+
+    $(".filter_select_title").on("click", function(e) {
+        e.preventDefault();
+        var parentBlock = $(this).closest(".filter_select_wrapp");
+        var dropdownTitle = $(this);
+        var dropdownSelect = parentBlock.find(".filter_dropdown");
+        if( dropdownSelect.is(":hidden") ) {
+            parentBlock.addClass("active");
+            dropdownSelect.fadeIn(300);
+        } else {
+            parentBlock.removeClass("active");
+            dropdownSelect.fadeOut(300);
+        }
+    });
+
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27) {
+            if ( $(".filter_dropdown").is(":visible") ) {
+                $(".filter_dropdown").fadeOut(300);
+                $(".filter_select_wrapp").removeClass("active");
+            }
+        }
+    });
+
+	$(document).mouseup(function (e){
+        hide_element = $(".filter_dropdown");
+        if (!hide_element.is(e.target)
+            && hide_element.has(e.target).length === 0) {
+            hide_element.fadeOut(300);
+        	hide_element.closest(".filter_select_wrapp").removeClass("active");
+        }
+    });
+
+   //  $(".filter_dropdown .checkbox input").on("change", function() {
+
+   //  	var ch = $(this);
+   //  	var labelVal = $(this).closest("label").find("span").text();
+
+   //  	var dropdownTitle = $(this).closest(".filter_select_wrapp").find(".filter_select_title input");
+   //  	var dropdownTitleVal =  dropdownTitle.val();
+
+   //  	if( ch.prop( "checked" ) ) {
+
+   //  		console.log(labelVal);
+
+   //  		var result = dropdownTitleVal.match(labelVal);
+
+   //  		console.log(result);
+
+   //  		if( dropdownTitleVal != "") {
+   //  			if(dropdownTitleVal.match(labelVal) == null) {
+   //  				dropdownTitle.val(dropdownTitleVal + "," + labelVal);
+   //  			}				
+   //  		} else {
+   //  			dropdownTitle.val(labelVal);
+   //  		}
+
+   //  	} else {
+			// var mass = dropdownTitleVal.split(", ");
+			// var res = "";
+			// mass.forEach(el => {
+			//  if (el === labelVal) return;
+			//  res += el + ", ";
+			// });
+			// dropdownTitle.val(res);
+   //  	}
+
+   //  });
+
+// ------------------------------------------------------
+
 	function getSliderHeight() {
 
 		if( bodyWidth >= 901 ) {
