@@ -3987,16 +3987,23 @@ button.white-pill:hover {
 	background-color: transparent;
 	padding-left: 20px;
     padding-right: 20px;
-    padding: 5px 20px;
+    padding: 0;
     position: relative;
 }
 
 .filter_dropdown .checkbox label {
 	display: block;
+	padding: 5px 20px;
     font-family: "Fira Sans Condensed Light";
     font-size: 16px;
     line-height: 21px;
     color: #ffffff;
+}
+
+.filter_dropdown .checkbox span:after,
+.filter_dropdown .checkbox span:before {
+	opacity: 0;
+	z-index: -1;
 }
 
 .filter_dropdown .checkbox:before {

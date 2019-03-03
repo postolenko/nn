@@ -155,49 +155,24 @@ $(document).ready(function() {
     });
 
     $(".filter_dropdown .checkbox input").on("change", function() {
+    	var parentBlock = $(this).closest(".filter_select_wrapp");
+    	var titleInput = parentBlock.find(".filter_select_title input");
     	var ch = $(this);
     	if( ch.prop( "checked" ) ) {
     		ch.closest(".checkbox").addClass("active");
     	} else {
     		ch.closest(".checkbox").removeClass("active");
     	}
+		valTowns = "";
+		parentBlock.find(".filter_dropdown input[type=checkbox]:checked").each(function(indx, element){
+			if(valTowns == "") {
+				valTowns = $(this).val();
+			} else {
+				valTowns += ", " + $(this).val();
+			}			
+		});
+		titleInput.val(valTowns);
     });
-
-   //  $(".filter_dropdown .checkbox input").on("change", function() {
-
-   //  	var ch = $(this);
-   //  	var labelVal = $(this).closest("label").find("span").text();
-
-   //  	var dropdownTitle = $(this).closest(".filter_select_wrapp").find(".filter_select_title input");
-   //  	var dropdownTitleVal =  dropdownTitle.val();
-
-   //  	if( ch.prop( "checked" ) ) {
-
-   //  		console.log(labelVal);
-
-   //  		var result = dropdownTitleVal.match(labelVal);
-
-   //  		console.log(result);
-
-   //  		if( dropdownTitleVal != "") {
-   //  			if(dropdownTitleVal.match(labelVal) == null) {
-   //  				dropdownTitle.val(dropdownTitleVal + "," + labelVal);
-   //  			}				
-   //  		} else {
-   //  			dropdownTitle.val(labelVal);
-   //  		}
-
-   //  	} else {
-			// var mass = dropdownTitleVal.split(", ");
-			// var res = "";
-			// mass.forEach(el => {
-			//  if (el === labelVal) return;
-			//  res += el + ", ";
-			// });
-			// dropdownTitle.val(res);
-   //  	}
-
-   //  });
 
 // ------------------------------------------------------
 
