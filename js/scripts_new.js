@@ -123,6 +123,13 @@ $(document).ready(function() {
         if( dropdownSelect.is(":hidden") ) {
             parentBlock.addClass("active");
             dropdownSelect.fadeIn(300);
+
+            dropdownSelect.find(".checkbox input").each(function() {
+            	if( $(this).prop("checked") ) {
+            		$(this).closest(".checkbox").addClass("active");
+            	}
+            });
+
         } else {
             parentBlock.removeClass("active");
             dropdownSelect.fadeOut(300);
@@ -145,6 +152,15 @@ $(document).ready(function() {
             hide_element.fadeOut(300);
         	hide_element.closest(".filter_select_wrapp").removeClass("active");
         }
+    });
+
+    $(".filter_dropdown .checkbox input").on("change", function() {
+    	var ch = $(this);
+    	if( ch.prop( "checked" ) ) {
+    		ch.closest(".checkbox").addClass("active");
+    	} else {
+    		ch.closest(".checkbox").removeClass("active");
+    	}
     });
 
    //  $(".filter_dropdown .checkbox input").on("change", function() {
