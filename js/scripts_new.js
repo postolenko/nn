@@ -117,7 +117,7 @@ $(document).ready(function() {
 
     $(".filter_select_title").on("click", function(e) {
         e.preventDefault();
-        var parentBlock = $(this).closest(".filter_select_wrapp");
+        parentBlock = $(this).closest(".filter_select_wrapp");
         var dropdownTitle = $(this);
         var dropdownSelect = parentBlock.find(".filter_dropdown");
         if( dropdownSelect.is(":hidden") ) {
@@ -155,7 +155,7 @@ $(document).ready(function() {
     });
 
     $(".filter_dropdown .checkbox input").on("change", function() {
-    	var parentBlock = $(this).closest(".filter_select_wrapp");
+    	parentBlock = $(this).closest(".filter_select_wrapp");
     	var titleInput = parentBlock.find(".filter_select_title input");
     	var ch = $(this);
     	if( ch.prop( "checked" ) ) {
